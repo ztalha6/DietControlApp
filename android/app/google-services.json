@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "897822477083",
+    "project_id": "calories-counter-diary",
+    "storage_bucket": "calories-counter-diary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897822477083:android:c60da558230ac8d85c61be",
+        "android_client_info": {
+          "package_name": "com.example.calories_counter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897822477083-49fvkbc8dan4d3g1itrsbevgct2t379t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calories_counter",
+            "certificate_hash": "9c446a98db097cce354b6a60708e8390d10dfe4c"
+          }
+        },
+        {
+          "client_id": "897822477083-cod4puh8c0gbq18i9msk26inff4fs5us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQKQZFtg-Yez9TW_RRaMJ29hbkh9KZ6Zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897822477083-cod4puh8c0gbq18i9msk26inff4fs5us.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897822477083-dhk14qob6cpa9o661v8fgkb9r4mu5vlc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dietControl"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,434 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.calories_counter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:6:5-66
+14-->/Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:6:22-64
+15
+16    <queries>
+16-->/Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:3:5-5:15
+17        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+17-->/Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:4:9-89
+17-->/Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:4:19-86
+18    </queries>
+19
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+20-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
+21-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:22-65
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+22-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+23    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+23-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+24
+25    <application
+26        android:name="android.app.Application"
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.6.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ff453976176a403e13d8ed149ba417dd/core-1.6.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+31        android:label="calories_counter"
+32        android:supportsRtl="true" >
+32-->[com.facebook.android:facebook-android-sdk:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3aa3081aad1523b4a1f9567c16d8d9c8/jetified-facebook-android-sdk-12.3.0/AndroidManifest.xml:28:18-44
+33        <meta-data
+34            android:name="com.facebook.sdk.ApplicationId"
+35            android:value="@string/facebook_app_id" />
+36        <meta-data
+37            android:name="com.facebook.sdk.ClientToken"
+38            android:value="@string/facebook_client_token" />
+39
+40        <activity
+41            android:name="com.facebook.FacebookActivity"
+42            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+43            android:label="@string/app_name"
+44            android:theme="@style/com_facebook_activity_theme" />
+44-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:33:13-63
+45        <activity
+46            android:name="com.facebook.CustomTabActivity"
+47            android:exported="true" >
+48            <intent-filter>
+49                <action android:name="android.intent.action.VIEW" />
+49-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:17-69
+49-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:25-66
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:17-76
+51-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:27-73
+52                <category android:name="android.intent.category.BROWSABLE" />
+52-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:17-78
+52-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:27-75
+53
+54                <data android:scheme="@string/fb_login_protocol_scheme" />
+54-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:45:17-47:50
+54-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:47:21-47
+55            </intent-filter>
+56            <intent-filter>
+56-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:39:13-48:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:17-69
+57-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:17-76
+59-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:27-73
+60                <category android:name="android.intent.category.BROWSABLE" />
+60-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:17-78
+60-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:27-75
+61
+62                <data
+62-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:45:17-47:50
+63                    android:host="cct.com.example.calories_counter"
+63-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:46:21-56
+64                    android:scheme="fbconnect" />
+64-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:47:21-47
+65            </intent-filter>
+66        </activity>
+67        <activity
+68            android:name="com.example.calories_counter.MainActivity"
+69            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+70            android:exported="true"
+71            android:hardwareAccelerated="true"
+72            android:launchMode="singleTop"
+73            android:theme="@style/LaunchTheme"
+74            android:windowSoftInputMode="adjustResize" >
+75
+76            <!--
+77                 Specifies an Android theme to apply to this Activity as soon as
+78                 the Android process has started. This theme is visible to the user
+79                 while the Flutter UI initializes. After that, this theme continues
+80                 to determine the Window background behind the Flutter UI.
+81            -->
+82            <meta-data
+83                android:name="io.flutter.embedding.android.NormalTheme"
+84                android:resource="@style/NormalTheme" />
+85
+86            <intent-filter>
+87                <action android:name="android.intent.action.MAIN" />
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+90            </intent-filter>
+91        </activity>
+92        <!--
+93             Don't delete the meta-data below.
+94             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+95        -->
+96        <meta-data
+97            android:name="flutterEmbedding"
+98            android:value="2" />
+99
+100        <service
+100-->[:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+101            android:name="com.google.firebase.components.ComponentDiscoveryService"
+101-->[:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+102            android:directBootAware="true"
+102-->[com.google.firebase:firebase-common:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d743e2f135b4b07104c7861c96109c08/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+103            android:exported="false" >
+103-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+104            <meta-data
+104-->[:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+105-->[:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+107            <meta-data
+107-->[:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+108                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+108-->[:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+111                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+111-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+113            <meta-data
+113-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+114                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+114-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-installations:17.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/26ef4bb110b83fd88e96e0e6f6c09f01/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+117                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+117-->[com.google.firebase:firebase-installations:17.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/26ef4bb110b83fd88e96e0e6f6c09f01/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-installations:17.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/26ef4bb110b83fd88e96e0e6f6c09f01/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+119        </service>
+120
+121        <provider
+121-->[:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+122            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+122-->[:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-77
+123            android:authorities="com.example.calories_counter.flutter.share_provider"
+123-->[:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+124            android:exported="false"
+124-->[:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+125            android:grantUriPermissions="true" >
+125-->[:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+126            <meta-data
+126-->[:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:68
+127                android:name="android.support.FILE_PROVIDER_PATHS"
+127-->[:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+128                android:resource="@xml/flutter_share_file_paths" />
+128-->[:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-65
+129        </provider>
+130
+131        <activity
+131-->[:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+132            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+132-->[:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+133            android:exported="false"
+133-->[:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+134            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+134-->[:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+135        <activity android:name="com.facebook.CustomTabMainActivity" />
+135-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:34:9-71
+135-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:34:19-68
+136        <!--
+137         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+138         with the application context. This config is merged in with the host app's manifest,
+139         but there can only be one provider with the same authority activated at any given
+140         point; so if the end user has two or more different apps that use Facebook SDK, only the
+141         first one will be able to use the provider. To work around this problem, we use the
+142         following placeholder in the authority to identify each host application as if it was
+143         a completely different provider.
+144        -->
+145        <provider
+145-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:39:9-42:40
+146            android:name="com.facebook.internal.FacebookInitProvider"
+146-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:40:13-70
+147            android:authorities="com.example.calories_counter.FacebookInitProvider"
+147-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:41:13-72
+148            android:exported="false" />
+148-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:42:13-37
+149
+150        <receiver
+150-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:44:9-50:20
+151            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+151-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:45:13-86
+152            android:exported="false" >
+152-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:46:13-37
+153            <intent-filter>
+153-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:47:13-49:29
+154                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+154-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:48:17-95
+154-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:48:25-92
+155            </intent-filter>
+156        </receiver>
+157        <receiver
+157-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:51:9-57:20
+158            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+158-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:52:13-118
+159            android:exported="false" >
+159-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:53:13-37
+160            <intent-filter>
+160-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:54:13-56:29
+161                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+161-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:55:17-103
+161-->[com.facebook.android:facebook-core:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ce86011b33759632a657ddb4b307acd1/jetified-facebook-core-12.3.0/AndroidManifest.xml:55:25-100
+162            </intent-filter>
+163        </receiver>
+164
+165        <uses-library
+165-->[androidx.window:window:1.0.0-beta04] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/051500a8a90559335ba3e86a95e3aaa1/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+166            android:name="androidx.window.extensions"
+166-->[androidx.window:window:1.0.0-beta04] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/051500a8a90559335ba3e86a95e3aaa1/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+167            android:required="false" />
+167-->[androidx.window:window:1.0.0-beta04] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/051500a8a90559335ba3e86a95e3aaa1/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+168        <uses-library
+168-->[androidx.window:window:1.0.0-beta04] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/051500a8a90559335ba3e86a95e3aaa1/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+169            android:name="androidx.window.sidecar"
+169-->[androidx.window:window:1.0.0-beta04] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/051500a8a90559335ba3e86a95e3aaa1/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+170            android:required="false" />
+170-->[androidx.window:window:1.0.0-beta04] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/051500a8a90559335ba3e86a95e3aaa1/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+171
+172        <activity
+172-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+173            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+173-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+174            android:excludeFromRecents="true"
+174-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+175            android:exported="true"
+175-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+176            android:launchMode="singleTask"
+176-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+177            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+177-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+178            <intent-filter>
+178-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+179                <action android:name="android.intent.action.VIEW" />
+179-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:17-69
+179-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:25-66
+180
+181                <category android:name="android.intent.category.DEFAULT" />
+181-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:17-76
+181-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:27-73
+182                <category android:name="android.intent.category.BROWSABLE" />
+182-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:17-78
+182-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:27-75
+183
+184                <data
+184-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:45:17-47:50
+185                    android:host="firebase.auth"
+185-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:46:21-56
+186                    android:path="/"
+187                    android:scheme="genericidp" />
+187-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:47:21-47
+188            </intent-filter>
+189        </activity>
+190        <activity
+190-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+191            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+191-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+192            android:excludeFromRecents="true"
+192-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+193            android:exported="true"
+193-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+194            android:launchMode="singleTask"
+194-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+195-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+196            <intent-filter>
+196-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+197                <action android:name="android.intent.action.VIEW" />
+197-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:17-69
+197-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:25-66
+198
+199                <category android:name="android.intent.category.DEFAULT" />
+199-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:17-76
+199-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:27-73
+200                <category android:name="android.intent.category.BROWSABLE" />
+200-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:17-78
+200-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:27-75
+201
+202                <data
+202-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:45:17-47:50
+203                    android:host="firebase.auth"
+203-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:46:21-56
+204                    android:path="/"
+205                    android:scheme="recaptcha" />
+205-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:47:21-47
+206            </intent-filter>
+207        </activity>
+208
+209        <service
+209-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+210            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+210-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+211            android:enabled="true"
+211-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+212            android:exported="false" >
+212-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+213            <intent-filter>
+213-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+214                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+214-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+214-->[com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+215
+216                <category android:name="android.intent.category.DEFAULT" />
+216-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:17-76
+216-->[com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:27-73
+217            </intent-filter>
+218        </service>
+219
+220        <activity
+220-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+221            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+221-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+222            android:excludeFromRecents="true"
+222-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+223            android:exported="false"
+223-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+224            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+224-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+225        <!--
+226            Service handling Google Sign-In user revocation. For apps that do not integrate with
+227            Google Sign-In, this service will never be started.
+228        -->
+229        <service
+229-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+230            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+230-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+231            android:exported="true"
+231-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+232            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+232-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+233            android:visibleToInstantApps="true" />
+233-->[com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+234
+235        <provider
+235-->[com.google.firebase:firebase-common:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d743e2f135b4b07104c7861c96109c08/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+236            android:name="com.google.firebase.provider.FirebaseInitProvider"
+236-->[com.google.firebase:firebase-common:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d743e2f135b4b07104c7861c96109c08/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+237            android:authorities="com.example.calories_counter.firebaseinitprovider"
+237-->[com.google.firebase:firebase-common:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d743e2f135b4b07104c7861c96109c08/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+238            android:directBootAware="true"
+238-->[com.google.firebase:firebase-common:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d743e2f135b4b07104c7861c96109c08/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+239            android:exported="false"
+239-->[com.google.firebase:firebase-common:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d743e2f135b4b07104c7861c96109c08/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+240            android:initOrder="100" />
+240-->[com.google.firebase:firebase-common:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d743e2f135b4b07104c7861c96109c08/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+241
+242        <receiver
+242-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+243            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+243-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+244            android:enabled="true"
+244-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+245            android:exported="false" >
+245-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+246        </receiver>
+247
+248        <service
+248-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+249            android:name="com.google.android.gms.measurement.AppMeasurementService"
+249-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+250            android:enabled="true"
+250-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+251            android:exported="false" />
+251-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+252        <service
+252-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+253            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+253-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+254            android:enabled="true"
+254-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+255            android:exported="false"
+255-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+256            android:permission="android.permission.BIND_JOB_SERVICE" />
+256-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+257
+258        <activity
+258-->[com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+259            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+259-->[com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+260            android:exported="false"
+260-->[com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+261            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+261-->[com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+262
+263        <meta-data
+263-->[com.google.android.gms:play-services-basement:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/4f1f09bd4ba5fbc6b6748842e6afc4b9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+264            android:name="com.google.android.gms.version"
+264-->[com.google.android.gms:play-services-basement:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/4f1f09bd4ba5fbc6b6748842e6afc4b9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+265            android:value="@integer/google_play_services_version" />
+265-->[com.google.android.gms:play-services-basement:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/4f1f09bd4ba5fbc6b6748842e6afc4b9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+266    </application>
+267
+268</manifest>
