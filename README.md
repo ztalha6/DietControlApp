@@ -1,4 +1,4 @@
-# calories_counter
+# Calories counter
 
 A new Flutter project.
 
