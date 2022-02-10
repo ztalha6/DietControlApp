@@ -10,7 +10,7 @@ const String USER_EMAIL_KEY = 'userEmail';
 class UserRepository {
   Map<String, Map<String, Map<String, int>>> mealdata = {
     "breakfast": {
-      "crabs": {
+      "carbs": {
         "Chapati": 0,
         "Rice": 0,
         "Bread": 0,
@@ -46,7 +46,7 @@ class UserRepository {
       "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     },
     "lunch": {
-      "crabs": {
+      "carbs": {
         "Chapati": 0,
         "Rice": 0,
         "Bread": 0,
@@ -82,7 +82,7 @@ class UserRepository {
       "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     },
     "dinner": {
-      "crabs": {
+      "carbs": {
         "Chapati": 0,
         "Rice": 0,
         "Bread": 0,
@@ -118,7 +118,7 @@ class UserRepository {
       "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     },
     "snacks": {
-      "crabs": {
+      "carbs": {
         "Chapati": 0,
         "Rice": 0,
         "Bread": 0,
@@ -156,7 +156,7 @@ class UserRepository {
   };
   Map<String, Map<String, int>> countedDataModel = {
     'breakfast': {
-      "crabs": 0,
+      "carbs": 0,
       "protein": 0,
       "fruits": 0,
       "dariy": 0,
@@ -164,7 +164,7 @@ class UserRepository {
       "vegies": 0,
     },
     'lunch': {
-      "crabs": 0,
+      "carbs": 0,
       "protein": 0,
       "fruits": 0,
       "dariy": 0,
@@ -172,7 +172,7 @@ class UserRepository {
       "vegies": 0,
     },
     'dinner': {
-      "crabs": 0,
+      "carbs": 0,
       "protein": 0,
       "fruits": 0,
       "dariy": 0,
@@ -180,7 +180,7 @@ class UserRepository {
       "vegies": 0,
     },
     'snacks': {
-      "crabs": 0,
+      "carbs": 0,
       "protein": 0,
       "fruits": 0,
       "dariy": 0,

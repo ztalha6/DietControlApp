@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:7:4-53:19
-MERGED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
-MERGED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
-MERGED from [:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
-MERGED from [:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:7:4-53:19
+MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
 MERGED from [com.facebook.android:facebook-android-sdk:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3aa3081aad1523b4a1f9567c16d8d9c8/jetified-facebook-android-sdk-12.3.0/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-android-sdk:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3aa3081aad1523b4a1f9567c16d8d9c8/jetified-facebook-android-sdk-12.3.0/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/faef86c8e6396c8e882866c51616984f/jetified-facebook-login-12.3.0/AndroidManifest.xml:28:5-29:19
@@ -74,21 +74,21 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gra
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-android-sdk:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3aa3081aad1523b4a1f9567c16d8d9c8/jetified-facebook-android-sdk-12.3.0/AndroidManifest.xml:28:18-44
 	android:name
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:1:1-54:12
-MERGED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:1:1-54:12
-MERGED from [:shared_preferences_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
-MERGED from [:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
-MERGED from [:path_provider_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:google_sign_in] /Users/rawaha/Documents/Talha Personal/calories_counter/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:flutter_facebook_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/flutter_facebook_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+MERGED from [:shared_preferences_android] /Users/rawaha/Developer/ositech/DietControlApp/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] /Users/rawaha/Developer/ositech/DietControlApp/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_sign_in] /Users/rawaha/Developer/ositech/DietControlApp/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_facebook_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/flutter_facebook_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.android:facebook-android-sdk:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3aa3081aad1523b4a1f9567c16d8d9c8/jetified-facebook-android-sdk-12.3.0/AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-login:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/faef86c8e6396c8e882866c51616984f/jetified-facebook-login-12.3.0/AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-gamingservices:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/1e2278eb94a955b92e4045f9b2c6df28/jetified-facebook-gamingservices-12.3.0/AndroidManifest.xml:21:1-31:12
@@ -160,35 +160,35 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/rawaha/.gr
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09e5245541131866a201f424e8823da5/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/249c8d1e8d704fd72c66aa8958ebe5b7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:2:5-43
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:2:5-43
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:1:1-54:12
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:1:1-54:12
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:11-69
 queries
-ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:3:5-5:15
+ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:3:5-5:15
 provider
-ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:4:9-89
+ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:4:9-89
 	android:authorities
-		ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:4:19-86
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:4:19-86
 uses-permission#android.permission.INTERNET
-ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:6:5-66
-MERGED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:6:5-66
-MERGED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:6:5-66
-MERGED from [:google_sign_in] /Users/rawaha/Documents/Talha Personal/calories_counter/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
-MERGED from [:google_sign_in] /Users/rawaha/Documents/Talha Personal/calories_counter/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [:google_sign_in] /Users/rawaha/Developer/ositech/DietControlApp/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/rawaha/Developer/ositech/DietControlApp/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:22:5-67
@@ -202,27 +202,27 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-sdk
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml
-MERGED from [:shared_preferences_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] /Users/rawaha/Documents/Talha Personal/calories_counter/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] /Users/rawaha/Documents/Talha Personal/calories_counter/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_facebook_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/flutter_facebook_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:flutter_facebook_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/flutter_facebook_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/rawaha/Developer/ositech/DietControlApp/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/rawaha/Developer/ositech/DietControlApp/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/rawaha/Developer/ositech/DietControlApp/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/rawaha/Developer/ositech/DietControlApp/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/rawaha/Developer/ositech/DietControlApp/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/rawaha/Developer/ositech/DietControlApp/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/flutter_facebook_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_facebook_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/flutter_facebook_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.android:facebook-android-sdk:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3aa3081aad1523b4a1f9567c16d8d9c8/jetified-facebook-android-sdk-12.3.0/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-android-sdk:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3aa3081aad1523b4a1f9567c16d8d9c8/jetified-facebook-android-sdk-12.3.0/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-login:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/faef86c8e6396c8e882866c51616984f/jetified-facebook-login-12.3.0/AndroidManifest.xml:24:5-26:41
@@ -365,18 +365,18 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rawaha/.g
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/249c8d1e8d704fd72c66aa8958ebe5b7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rawaha/Documents/Talha Personal/calories_counter/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:27:9-33:19
@@ -392,43 +392,43 @@ MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/rawaha/.gradle/c
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d743e2f135b4b07104c7861c96109c08/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+		ADDED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] /Users/rawaha/Documents/Talha Personal/calories_counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 provider#dev.fluttercommunity.plus.share.ShareFileProvider
-ADDED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+ADDED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
-		ADDED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+		ADDED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
 	android:authorities
-		ADDED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+		ADDED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
 	android:exported
-		ADDED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+		ADDED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-77
+		ADDED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-77
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:68
+ADDED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:68
 	android:resource
-		ADDED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-65
+		ADDED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-65
 	android:name
-		ADDED from [:share_plus] /Users/rawaha/Documents/Talha Personal/calories_counter/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+		ADDED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+ADDED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
 	android:exported
-		ADDED from [:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+		ADDED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
 	android:theme
-		ADDED from [:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+		ADDED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
 	android:name
-		ADDED from [:url_launcher_android] /Users/rawaha/Documents/Talha Personal/calories_counter/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+		ADDED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
 activity#com.facebook.FacebookActivity
 MERGED from [com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:30:9-33:66
 MERGED from [com.facebook.android:facebook-common:12.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e868494c1cdd2be9e9b5f01195179b25/jetified-facebook-common-12.3.0/AndroidManifest.xml:30:9-33:66

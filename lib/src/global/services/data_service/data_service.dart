@@ -24,7 +24,7 @@ class DataService {
 
   Future<ResponseModel> saveUserData(
     String date,
-    Map<String, Map<String, Map<String, int>>> data,
+    Map<String, Map<String, int>> data,
   ) async {
     // final Map<String, Map<String, int>> countedData =
     //     UserRepository().countedDataModel;
@@ -73,10 +73,10 @@ class DataService {
     return dates;
   }
 
-  Future<List<Map<String, Map<String, Map<String, int>>>>> getHistory(
+  Future<List<Map<String, Map<String, int>>>> getHistory(
     List<String> dates,
   ) async {
-    final List<Map<String, Map<String, Map<String, int>>>> data = [];
+    final List<Map<String, Map<String, int>>> data = [];
     if (dates.isNotEmpty) {
       for (final date in dates) {
         final String? temp = await _userRepository.getDataAgainstDate(date);

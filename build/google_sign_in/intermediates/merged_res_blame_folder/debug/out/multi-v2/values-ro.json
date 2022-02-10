@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rawaha/Documents/Talha Personal/calories_counter/build/google_sign_in/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
+            "outputFile": "/Users/rawaha/Developer/ositech/DietControlApp/build/google_sign_in/intermediates/res/merged/debug/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/res/values-ro/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/rawaha/Documents/Talha Personal/calories_counter/build/google_sign_in/intermediates/res/merged/debug/values-ro/values-ro.xml",
+            "outputFile": "/Users/rawaha/Developer/ositech/DietControlApp/build/google_sign_in/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml",
             "map": [
                 {
                     "source": "/Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/res/values-ro/values.xml",

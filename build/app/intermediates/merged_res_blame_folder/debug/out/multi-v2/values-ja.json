@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rawaha/Documents/Talha Personal/calories_counter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/Users/rawaha/Developer/ositech/DietControlApp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "/Users/rawaha/.gradle/caches/transforms-2/files-2.1/f369f2e1deb1fbb2fe8f05f3d0983169/appcompat-1.1.0/res/values-ja/values-ja.xml",

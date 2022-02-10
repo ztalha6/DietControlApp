@@ -73,7 +73,7 @@ class HomeView extends StatelessWidget {
                   child: Row(
                     children: [
                       SizedBox(
-                        width: MediaQuery.of(context).size.width * 0.200,
+                        width: MediaQuery.of(context).size.width * 0.220,
                         child: Text(
                           model.date,
                           // overflow: TextOverflow.ellipsis,
@@ -183,7 +183,7 @@ class HomeView extends StatelessWidget {
               tileColor: const Color(0xFF84A94F).withOpacity(0.2),
               trailingColor: const Color(0xFF84A94F),
               titleColor: const Color(0xFF84A94F),
-              title: 'Crabs',
+              title: 'carbs',
               childerns: [
                 const SizedBox(
                   height: 20,
@@ -250,7 +250,7 @@ class HomeView extends StatelessWidget {
                                 // ),
                                 // Visibility(
                                 //   visible:
-                                //       // dietLists['crabs']![0] != 0 &&
+                                //       // dietLists['carbs']![0] != 0 &&
                                 //       model.toggleDelete,
                                 //   child: Transform.translate(
                                 //     offset: const Offset(40, -10),
@@ -557,7 +557,7 @@ class HomeView extends StatelessWidget {
                                 // ),
                                 // Visibility(
                                 //   visible:
-                                //       // dietLists['crabs']![0] != 0 &&
+                                //       // dietLists['carbs']![0] != 0 &&
                                 //       model.toggleDelete,
                                 //   child: Transform.translate(
                                 //     offset: const Offset(40, -10),
@@ -862,7 +862,7 @@ class HomeView extends StatelessWidget {
                                 // ),
                                 // Visibility(
                                 //   visible:
-                                //       // dietLists['crabs']![0] != 0 &&
+                                //       // dietLists['carbs']![0] != 0 &&
                                 //       model.toggleDelete,
                                 //   child: Transform.translate(
                                 //     offset: const Offset(40, -10),
@@ -1167,7 +1167,7 @@ class HomeView extends StatelessWidget {
                                 // ),
                                 // Visibility(
                                 //   visible:
-                                //       // dietLists['crabs']![0] != 0 &&
+                                //       // dietLists['carbs']![0] != 0 &&
                                 //       model.toggleDelete,
                                 //   child: Transform.translate(
                                 //     offset: const Offset(40, -10),
@@ -1471,7 +1471,7 @@ class HomeView extends StatelessWidget {
                                 // ),
                                 // Visibility(
                                 //   visible:
-                                //       // dietLists['crabs']![0] != 0 &&
+                                //       // dietLists['carbs']![0] != 0 &&
                                 //       model.toggleDelete,
                                 //   child: Transform.translate(
                                 //     offset: const Offset(40, -10),
@@ -1775,7 +1775,7 @@ class HomeView extends StatelessWidget {
                                 // ),
                                 // Visibility(
                                 //   visible:
-                                //       // dietLists['crabs']![0] != 0 &&
+                                //       // dietLists['carbs']![0] != 0 &&
                                 //       model.toggleDelete,
                                 //   child: Transform.translate(
                                 //     offset: const Offset(40, -10),

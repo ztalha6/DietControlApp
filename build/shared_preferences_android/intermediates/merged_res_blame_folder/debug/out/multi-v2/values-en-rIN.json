@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rawaha/Documents/Talha Personal/calories_counter/build/shared_preferences_android/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "/Users/rawaha/Developer/ositech/DietControlApp/build/shared_preferences_android/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "/Users/rawaha/.gradle/caches/transforms-2/files-2.1/ff453976176a403e13d8ed149ba417dd/core-1.6.0/res/values-en-rIN/values-en-rIN.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/rawaha/Documents/Talha Personal/calories_counter/build/shared_preferences_android/intermediates/res/merged/debug/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "/Users/rawaha/Developer/ositech/DietControlApp/build/shared_preferences_android/intermediates/res/merged/debug/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "/Users/rawaha/.gradle/caches/transforms-2/files-2.1/ff453976176a403e13d8ed149ba417dd/core-1.6.0/res/values-en-rIN/values-en-rIN.xml",

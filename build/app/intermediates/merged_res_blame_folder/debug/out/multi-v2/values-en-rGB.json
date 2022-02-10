@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rawaha/Documents/Talha Personal/calories_counter/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/rawaha/Developer/ositech/DietControlApp/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/rawaha/.gradle/caches/transforms-2/files-2.1/4f1f09bd4ba5fbc6b6748842e6afc4b9/jetified-play-services-basement-18.0.0/res/values-en-rGB/values.xml",

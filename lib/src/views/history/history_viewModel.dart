@@ -5,9 +5,9 @@ import 'package:stacked/stacked.dart';
 
 class HistoryViewModel extends BaseViewModel {
   List<Color> colors = [];
-  List<Map<String, Map<String, Map<String, int>>>> _data = [];
-  List<Map<String, Map<String, Map<String, int>>>> get data => _data;
-  set data(List<Map<String, Map<String, Map<String, int>>>> val) {
+  List<Map<String, Map<String, int>>> _data = [];
+  List<Map<String, Map<String, int>>> get data => _data;
+  set data(List<Map<String, Map<String, int>>> val) {
     _data = val;
     notifyListeners();
   }
@@ -33,10 +33,10 @@ class HistoryViewModel extends BaseViewModel {
     }
   }
 
-  int getTotalCount(int index, int catagoryIndex) {
-    return DataService().getTotalCountsofCatagory(
-      data[index],
-      catagoryIndex,
-    );
-  }
+  // int getTotalCount(int index, int catagoryIndex) {
+  //   return DataService().getTotalCountsofCatagory(
+  //     data[index],
+  //     catagoryIndex,
+  //   );
+  // }
 }

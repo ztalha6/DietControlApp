@@ -34,7 +34,7 @@ class HomeViewModel extends BaseViewModel {
     notifyListeners();
   }
 
-  String _date = '';
+  String _date = DateFormat.yMd().format(DateTime.now());
   String get date => _date;
   set date(String val) {
     _date = val;
@@ -196,7 +196,8 @@ class HomeViewModel extends BaseViewModel {
             DataService().getTotalCountsofCatagory(dietData, j);
       }
     }
-    final ResponseModel res = await DataService().saveUserData(date, dietData);
+    final ResponseModel res =
+        await DataService().saveUserData(date, finalDietData);
     if (res.sucess) {
       dietData = DataService().getInitialData();
       rootScaffoldMessengerKey.currentState?.showSnackBar(
