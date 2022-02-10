@@ -1,5 +1,7 @@
 import 'package:calories_counter/src/global/repos/user_repository.dart';
 import 'package:calories_counter/src/global/services/data_service/data_service.dart';
+import 'package:calories_counter/src/views/edit/edit_view.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
@@ -37,6 +39,13 @@ class HistoryViewModel extends BaseViewModel {
     return DataService().getTotalCountsofCatagory(
       data[index],
       catagoryIndex,
+    );
+  }
+
+  void navigateToEditVew(BuildContext context) {
+    Navigator.push(
+      context,
+      CupertinoPageRoute(builder: (context) => const EditView()),
     );
   }
 }

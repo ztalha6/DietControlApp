@@ -88,7 +88,7 @@ class HistoryView extends StatelessWidget {
     int index,
   ) {
     return InkWell(
-      onTap: () {},
+      onTap: () => model.navigateToEditVew(context),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
