@@ -193,7 +193,8 @@ class HomeViewModel extends BaseViewModel {
       for (var j = 0; j < 6; j++) {
         finalDietData[getTabNameFromIndexs(i)]![
                 getCatagoryNameFromIndexs(i, j)] =
-            DataService().getTotalCountsofCatagory(dietData, j);
+            DataService()
+                .getTotalCountsofMealType(dietData, getTabNameFromIndexs(i), j);
       }
     }
     final ResponseModel res =

@@ -11,6 +11,7 @@ class PreferIntakeView extends StatelessWidget {
     return ViewModelBuilder<PreferIntakeViewModel>.reactive(
       viewModelBuilder: () => PreferIntakeViewModel(),
       builder: (context, model, _) => Scaffold(
+        backgroundColor: Colors.white,
         body: SafeArea(
           child: SingleChildScrollView(
             child: Padding(

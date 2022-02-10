@@ -120,7 +120,7 @@ class HistoryView extends StatelessWidget {
                       borderRadius: const BorderRadius.all(Radius.circular(15)),
                     ),
                     child: Text(
-                      '${model.data[index]["breakfast"]!.keys.elementAt(i)} = ${model.data[index]['breakfast']!.values.elementAt(i)}',
+                      '${model.data[index]["breakfast"]!.keys.elementAt(i)} = ${model.getTotalCount(index, i)}',
                       style: TextStyle(fontSize: 16, color: model.colors[i]),
                     ),
                   ),

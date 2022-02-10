@@ -33,10 +33,10 @@ class HistoryViewModel extends BaseViewModel {
     }
   }
 
-  // int getTotalCount(int index, int catagoryIndex) {
-  //   return DataService().getTotalCountsofCatagory(
-  //     data[index],
-  //     catagoryIndex,
-  //   );
-  // }
+  int getTotalCount(int index, int catagoryIndex) {
+    return DataService().getTotalCountsofCatagory(
+      data[index],
+      catagoryIndex,
+    );
+  }
 }

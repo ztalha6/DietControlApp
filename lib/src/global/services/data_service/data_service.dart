@@ -105,7 +105,25 @@ class DataService {
   }
 
   int getTotalCountsofCatagory(
+    Map<String, Map<String, int>> data,
+    int catagoryIndex,
+  ) {
+    // final Map<String, Map<String, Map<String, int>>> temp =
+    //     UserRepository().mealdata;
+    Map<String, int> catagory = {};
+    int item = 0;
+    int values = 0;
+    for (var i = 0; i < data.keys.length; i++) {
+      catagory = data[data.keys.elementAt(i)]!;
+      item = catagory[catagory.keys.elementAt(catagoryIndex)]!;
+      values += item;
+    }
+    return values;
+  }
+
+  int getTotalCountsofMealType(
     Map<String, Map<String, Map<String, int>>> data,
+    String mealType,
     int catagoryIndex,
   ) {
     // final Map<String, Map<String, Map<String, int>>> temp =
@@ -113,11 +131,9 @@ class DataService {
     Map<String, Map<String, int>> catagory = {};
     Map<String, int> item = {};
     int values = 0;
-    for (var i = 0; i < data.keys.length; i++) {
-      catagory = data[data.keys.elementAt(i)]!;
-      item = catagory[catagory.keys.elementAt(catagoryIndex)]!;
-      values += item.values.reduce((sum, element) => sum + element);
-    }
+    catagory = data[mealType]!;
+    item = catagory[catagory.keys.elementAt(catagoryIndex)]!;
+    values += item.values.reduce((sum, element) => sum + element);
     return values;
   }
 }
