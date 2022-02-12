@@ -2,7 +2,6 @@ import 'package:calories_counter/src/global/repos/user_repository.dart';
 import 'package:calories_counter/src/global/services/data_service/data_service.dart';
 import 'package:calories_counter/src/views/edit/edit_view.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
 
 class HistoryViewModel extends BaseViewModel {
@@ -42,10 +41,16 @@ class HistoryViewModel extends BaseViewModel {
     );
   }
 
-  void navigateToEditVew(BuildContext context) {
-    Navigator.push(
+  Future<void> navigateToEditVew(BuildContext context, int index) async {
+    final res = await Navigator.push(
       context,
-      CupertinoPageRoute(builder: (context) => const EditView()),
+      CupertinoPageRoute(
+        builder: (context) => EditView(
+          data: data[index],
+          date: dates[index],
+        ),
+      ),
     );
+    if (res == null) init();
   }
 }

@@ -88,10 +88,11 @@ class HistoryView extends StatelessWidget {
     int index,
   ) {
     return InkWell(
-      onTap: () => model.navigateToEditVew(context),
+      onTap: () => model.navigateToEditVew(context, index),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          const SizedBox(height: 10),
           Row(
             children: [
               Container(
@@ -127,7 +128,10 @@ class HistoryView extends StatelessWidget {
                 )
             ],
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 5),
+          const Divider(
+            color: Colors.grey,
+          )
         ],
       ),
     );

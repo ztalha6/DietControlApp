@@ -266,18 +266,13 @@ class UserRepository {
     final SharedPreferences prefs =
         await SharedPreferencesManager.getSharedPreferencesInstance();
     final List<String> dates = await getDatesAgainstEmail(email) ?? [];
-    if (dates.contains(date)) {
-      return ResponseModel(
-        sucess: false,
-        error: 'Date alreadt exist!',
-      );
-    } else {
+    if (!dates.contains(date)) {
       dates.add(date);
-      return ResponseModel(
-        sucess: await prefs.setStringList('${email}dates', dates),
-        error: '',
-      );
     }
+    return ResponseModel(
+      sucess: await prefs.setStringList('${email}dates', dates),
+      error: '',
+    );
   }
 
   Future<List<String>?> getDatesAgainstEmail(String email) async {
