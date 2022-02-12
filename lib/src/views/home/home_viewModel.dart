@@ -203,7 +203,7 @@ class HomeViewModel extends BaseViewModel {
       dietData = DataService().getInitialData();
       rootScaffoldMessengerKey.currentState?.showSnackBar(
         SnackbarManager().getSuccessSnackbar(
-          'Diet saved!',
+          'Saved!',
           16,
           const Duration(
             milliseconds: 2500,

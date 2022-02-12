@@ -26,17 +26,6 @@ class DataService {
     String date,
     Map<String, Map<String, int>> data,
   ) async {
-    // final Map<String, Map<String, int>> countedData =
-    //     UserRepository().countedDataModel;
-    // for (var i = 0; i < countedData.keys.length; i++) {
-    //   final Map<String, int> c = countedData.values.elementAt(i);
-    //   for (var j = 0; j < c.keys.length; j++) {
-    //     countedData[countedData.keys.elementAt(i)]![countedData.values
-    //         .elementAt(i)
-    //         .keys
-    //         .elementAt(j)] = getTotalCountsofCatagory(data, j);
-    //   }
-    // }
     final String jsonConvetedData = json.encode(data);
     final String? email = await _userRepository.getUserEmail();
     return _userRepository.savaUserDataInStorage(email, date, jsonConvetedData);
