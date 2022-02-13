@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:calories_counter/src/global/services/shared_prefs/shared_preferences_manager.dart';
 import 'package:calories_counter/src/views/sign_in/sign_in_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -120,16 +121,29 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       ),
       pages: [
         PageViewModel(
-          title: "Fractional shares",
-          body:
-              "Instead of having to buy an entire share, invest any amount you want.",
+          // title: "Fractional shares",
+          titleWidget: Text(
+            'Take Control',
+            style: TextStyle(
+              fontSize: 28.0,
+              fontWeight: FontWeight.w700,
+              color: Theme.of(context).primaryColor,
+            ),
+          ),
+          body: "Time to get some control over your diet.",
           image: _buildImage('onboarding1.png'),
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Learn as you go",
-          body:
-              "Download the Stockpile app and master the market with our mini-lesson.",
+          titleWidget: Text(
+            'A new start',
+            style: TextStyle(
+              fontSize: 28.0,
+              fontWeight: FontWeight.w700,
+              color: Color(0xffFECC4C),
+            ),
+          ),
+          body: "Lets start a healthy routine with a balanced diet.",
           image: Container(
             color: Colors.white,
             child: _buildImage('onboarding2.png'),
@@ -137,9 +151,15 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           decoration: pageDecoration,
         ),
         PageViewModel(
-          title: "Kids and teens",
-          body:
-              "Kids and teens can track their stocks 24/7 and place trades that you approve.",
+          titleWidget: Text(
+            'All in one',
+            style: TextStyle(
+              fontSize: 28.0,
+              fontWeight: FontWeight.w700,
+              color: Theme.of(context).primaryColor,
+            ),
+          ),
+          body: "We have all the diet info essential for your health.",
           image: _buildImage('onboarding3.png'),
           decoration: pageDecoration,
         ),
@@ -216,7 +236,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
       controlsPadding: const EdgeInsets.fromLTRB(8.0, 4.0, 8.0, 4.0),
       dotsDecorator: DotsDecorator(
         // size: Size(10.0, 10.0),
-        activeColor: Theme.of(context).primaryColor,
+        activeColor: Colors.black,
         activeSize: const Size(22.0, 10.0),
         activeShape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(25.0)),
@@ -242,11 +262,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-
     Timer(
       const Duration(seconds: 3),
-      () {
+      () async {
+        _firstOpen = await SharedPreferencesManager().getBool();
         if (_firstOpen) {
+          SharedPreferencesManager().setBool(false);
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(builder: (context) => OnBoardingPage()),
