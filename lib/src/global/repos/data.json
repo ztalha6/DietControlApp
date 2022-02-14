@@ -1,34 +1,126 @@
-{
-    "breakfast": {
-      "carbs": 0,
-      "protein": 0,
-      "fruits": 0,
-      "dariy": 0,
-      "fat": 0,
-      "vegies": 0
+  {
+    "breakfast":{
+      "carbs": {
+        "Chapati": 0,
+        "Rice": 0,
+        "BreadOats": 0,
+        "PastaNoodles": 0,
+        "Patato": 0
+      },
+      "protein": {
+        "ChickenMeat": 0,
+        "Eggs": 0,
+        "Beans": 0,
+        "Fish": 0,
+        "besan": 0
+      },
+      "fruits": {
+        "AnyFruits": 0,
+        "Melon": 0,
+        "Orange": 0,
+        "FriutJuice": 0,
+        "MixFruitChat": 0
+      },
+      "dariy": {
+        "LowFatChees": 0,
+        "LowFatMilk": 0,
+        "Yougat": 0,
+        "NutMilk": 0
+      },
+      "fat": {"Almond": 0, "FattySeeds": 0},
+      "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     },
-    "lunch": {
-      "carbs": 0,
-      "protein": 0,
-      "fruits": 0,
-      "dariy": 0,
-      "fat": 0,
-      "vegies": 0
+    "lunch":{
+      "carbs": {
+        "Chapati": 0,
+        "Rice": 0,
+        "BreadOats": 0,
+        "PastaNoodles": 0,
+        "Patato": 0
+      },
+      "protein": {
+        "ChickenMeat": 0,
+        "Eggs": 0,
+        "Beans": 0,
+        "Fish": 0,
+        "besan": 0
+      },
+      "fruits": {
+        "AnyFruits": 0,
+        "Melon": 0,
+        "Orange": 0,
+        "FriutJuice": 0,
+        "MixFruitChat": 0
+      },
+      "dariy": {
+        "LowFatChees": 0,
+        "LowFatMilk": 0,
+        "Yougat": 0,
+        "NutMilk": 0
+      },
+      "fat": {"Almond": 0, "FattySeeds": 0},
+      "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     },
     "dinner": {
-      "carbs": 0,
-      "protein": 0,
-      "fruits": 0,
-      "dariy": 0,
-      "fat": 0,
-      "vegies": 0
+      "carbs": {
+        "Chapati": 0,
+        "Rice": 0,
+        "BreadOats": 0,
+        "PastaNoodles": 0,
+        "Patato": 0
+      },
+      "protein": {
+        "ChickenMeat": 0,
+        "Eggs": 0,
+        "Beans": 0,
+        "Fish": 0,
+        "besan": 0
+      },
+      "fruits": {
+        "AnyFruits": 0,
+        "Melon": 0,
+        "Orange": 0,
+        "FriutJuice": 0,
+        "MixFruitChat": 0
+      },
+      "dariy": {
+        "LowFatChees": 0,
+        "LowFatMilk": 0,
+        "Yougat": 0,
+        "NutMilk": 0
+      },
+      "fat": {"Almond": 0, "FattySeeds": 0},
+      "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     },
     "snacks": {
-      "carbs": 0,
-      "protein": 0,
-      "fruits": 0,
-      "dariy": 0,
-      "fat": 0,
-      "vegies": 0
+      "carbs": {
+        "Chapati": 0,
+        "Rice": 0,
+        "BreadOats": 0,
+        "PastaNoodles": 0,
+        "Patato": 0
+      },
+      "protein": {
+        "ChickenMeat": 0,
+        "Eggs": 0,
+        "Beans": 0,
+        "Fish": 0,
+        "besan": 0
+      },
+      "fruits": {
+        "AnyFruits": 0,
+        "Melon": 0,
+        "Orange": 0,
+        "FriutJuice": 0,
+        "MixFruitChat": 0
+      },
+      "dariy": {
+        "LowFatChees": 0,
+        "LowFatMilk": 0,
+        "Yougat": 0,
+        "NutMilk": 0
+      },
+      "fat": {"Almond": 0, "FattySeeds": 0},
+      "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     }
   }

@@ -104,3 +104,9 @@ class Breakfast {
     return data;
   }
 }
+
+class Item {
+  final String displayName;
+  final String assetPath;
+  Item(this.displayName, this.assetPath);
+}

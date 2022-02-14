@@ -3,6 +3,7 @@ import 'package:calories_counter/src/global/repos/user_repository.dart';
 import 'package:calories_counter/src/global/services/data_service/data_service.dart';
 import 'package:calories_counter/src/global/services/snackbar_service/snackbar_manager.dart';
 import 'package:calories_counter/src/global/setup/startup.dart';
+import 'package:calories_counter/src/model/diet_model.dart';
 import 'package:calories_counter/src/model/response_model.dart';
 import 'package:calories_counter/src/model/user_model.dart';
 import 'package:flutter/material.dart';
@@ -13,6 +14,44 @@ import 'package:stacked_services/stacked_services.dart';
 
 class HomeViewModel extends BaseViewModel {
   SnackbarService snackbarService = locator<SnackbarService>();
+
+  List<Item> vegies = [
+    Item("all vegies", 'assets/images/allvegies.png'),
+    Item("corns", 'assets/images/corn.png'),
+    Item("olives", 'assets/images/olives.png'),
+  ];
+  List<Item> nuts = [
+    Item("almond chashew", 'assets/images/almond.png'),
+    Item("fatty seeds", 'assets/images/fattyseeds.png'),
+  ];
+  List<Item> diary = [
+    Item("low fat milk", 'assets/images/milk.png'),
+    Item("low fat cheese ", 'assets/images/cheese.png'),
+    Item("low fat yougurt", 'assets/images/yougurt.png'),
+    Item("nut milk", 'assets/images/milk.png'),
+  ];
+  List<Item> protien = [
+    Item("chicken/meat", 'assets/images/meat.png'),
+    Item("eggs", 'assets/images/egg.png'),
+    Item("lantils/beans", 'assets/images/beans.png'),
+    Item("fish", 'assets/images/fish.png'),
+    Item("besan", 'assets/images/besan.png'),
+  ];
+  List<Item> carbs = [
+    Item("chapati", 'assets/images/chapati.png'),
+    Item("rice", 'assets/images/rice.png'),
+    Item("bread/oats", 'assets/images/bread.png'),
+    Item("pasta/noodles", 'assets/images/pasta.png'),
+    Item("patato", 'assets/images/patato.png'),
+  ];
+  List<Item> friuts = [
+    Item("any fruit", 'assets/images/anyfruit.png'),
+    Item("melon", 'assets/images/melon.png'),
+    Item("orange", 'assets/images/orange.png'),
+    Item("friut juice", 'assets/images/juice.png'),
+    Item("friut chat", 'assets/images/mix.png'),
+  ];
+
   bool _toggleDelete = false;
   bool get toggleDelete => _toggleDelete;
   set toggleDelete(bool val) {

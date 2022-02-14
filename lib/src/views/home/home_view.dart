@@ -13,6 +13,10 @@ class HomeView extends StatelessWidget {
         color: Colors.black,
         fontSize: 14.0,
       );
+  TextStyle itemTextStyle() => const TextStyle(
+        fontWeight: FontWeight.bold,
+        color: Colors.black,
+      );
   @override
   Widget build(BuildContext context) {
     return ViewModelBuilder<HomeViewModel>.reactive(
@@ -189,13 +193,13 @@ class HomeView extends StatelessWidget {
                   height: 20,
                 ),
                 SizedBox(
-                  height: 180,
+                  height: 230,
                   child: GridView.count(
                     scrollDirection: Axis.horizontal,
                     mainAxisSpacing: 10.0,
                     crossAxisCount: 2,
                     children: List.generate(
-                      model.getItemsLengthFromIndexs(tabNumber, 0),
+                      model.carbs.length,
                       (index) {
                         return Center(
                           child: Padding(
@@ -279,155 +283,186 @@ class HomeView extends StatelessWidget {
                                 //   ),
                                 // ),
 
-                                // InkWell(
-                                //   // ignore: avoid_print
-                                //   // onTap: model.toggleDelete
-                                //   //     ? null
-                                //   //     : () => model.incrementItem(
-                                //   //           tabNumber,
-                                //   //           0,
-                                //   //           index,
-                                //   //         ),
-                                //   // onLongPress: () =>
-                                //   //     model.toggleDelete = !model.toggleDelete,
-                                //   child:
-                                Container(
-                                  width:
-                                      MediaQuery.of(context).size.width * 0.250,
-                                  height: 575,
-                                  decoration: BoxDecoration(
-                                    // ignore: use_full_hex_values_for_flutter_colors
-                                    color: const Color(0xFF84A94F)
-                                        .withOpacity(0.2),
-                                    borderRadius: const BorderRadius.all(
-                                      Radius.circular(15),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(18.0),
-                                    child: Text(
-                                      model.getItemNameFromIndexs(
-                                        tabNumber,
-                                        0,
-                                        index,
+                                SizedBox(
+                                  width: 500,
+                                  child: InkWell(
+                                    // ignore: avoid_print
+                                    onTap: () {
+                                      if (model.getItemValueFromIndexs(
+                                              tabNumber, 0, index) ==
+                                          0) {
+                                        model.incrementItem(
+                                            tabNumber, 0, index);
+                                      }
+                                    },
+                                    // onLongPress: () =>
+                                    //     model.toggleDelete = !model.toggleDelete,
+                                    child: Container(
+                                      // width: MediaQuery.of(context).size.width *
+                                      //     0.250,
+                                      // height: 575,
+                                      decoration: BoxDecoration(
+                                        // ignore: use_full_hex_values_for_flutter_colors
+                                        color: const Color(0xFF84A94F)
+                                            .withOpacity(0.2),
+                                        borderRadius: const BorderRadius.all(
+                                          Radius.circular(15),
+                                        ),
+                                      ),
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(18.0),
+                                        child: Column(
+                                          children: [
+                                            Image.asset(
+                                              model.carbs[index].assetPath,
+                                              height: 30,
+                                            ),
+                                            SizedBox(
+                                              height: 6,
+                                            ),
+                                            Text(
+                                              model.carbs[index].displayName,
+                                              style: itemTextStyle(),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ),
                                 ),
-                                // ),
 
-                                Positioned(
-                                  bottom: 1.0,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      // ignore: use_full_hex_values_for_flutter_colors
-                                      color: const Color(0xFF84A94F)
-                                          .withOpacity(0.2),
-                                      borderRadius: const BorderRadius.all(
-                                        Radius.circular(15),
+                                Visibility(
+                                  visible: model.getItemValueFromIndexs(
+                                        tabNumber,
+                                        0,
+                                        index,
+                                      ) !=
+                                      0,
+                                  child: Transform.translate(
+                                    offset: Offset(90, 5),
+                                    child: Positioned(
+                                      bottom: 1.0,
+                                      child: Container(
+                                        // decoration: BoxDecoration(
+                                        //   // ignore: use_full_hex_values_for_flutter_colors
+                                        //   color: const Color(0xFF84A94F)
+                                        //       .withOpacity(0.2),
+                                        //   borderRadius: const BorderRadius.all(
+                                        //     Radius.circular(15),
+                                        //   ),
+                                        // ),
+                                        height:
+                                            MediaQuery.of(context).size.width /
+                                                4,
+                                        child: Column(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.incrementItem(
+                                                  tabNumber,
+                                                  0,
+                                                  index,
+                                                ),
+                                                color: const Color.fromARGB(
+                                                  255,
+                                                  254,
+                                                  114,
+                                                  76,
+                                                ),
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.add,
+                                                  color: Colors.white,
+                                                ),
+                                              ),
+                                            ),
+                                            Text(
+                                              model
+                                                  .getItemValueFromIndexs(
+                                                    tabNumber,
+                                                    0,
+                                                    index,
+                                                  )
+                                                  .toString(),
+                                              style: itemTextStyle(),
+                                            ),
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.decrementItem(
+                                                  tabNumber,
+                                                  0,
+                                                  index,
+                                                ),
+                                                color: Colors.white,
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.remove,
+                                                  color: Colors.black,
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
                                       ),
-                                    ),
-                                    width:
-                                        MediaQuery.of(context).size.width / 4,
-                                    child: Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.incrementItem(
-                                              tabNumber,
-                                              0,
-                                              index,
-                                            ),
-                                            color: const Color.fromARGB(
-                                              255,
-                                              254,
-                                              114,
-                                              76,
-                                            ),
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.add,
-                                              color: Colors.white,
-                                            ),
-                                          ),
-                                        ),
-                                        Text(
-                                          model
-                                              .getItemValueFromIndexs(
-                                                tabNumber,
-                                                0,
-                                                index,
-                                              )
-                                              .toString(),
-                                        ),
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.decrementItem(
-                                              tabNumber,
-                                              0,
-                                              index,
-                                            ),
-                                            color: Colors.white,
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.remove,
-                                              color: Colors.black,
-                                            ),
-                                          ),
-                                        ),
-                                      ],
                                     ),
                                   ),
                                 ),
@@ -496,7 +531,7 @@ class HomeView extends StatelessWidget {
                   height: 20,
                 ),
                 SizedBox(
-                  height: 180,
+                  height: 230,
                   child: GridView.count(
                     scrollDirection: Axis.horizontal,
                     mainAxisSpacing: 10.0,
@@ -586,153 +621,187 @@ class HomeView extends StatelessWidget {
                                 //   ),
                                 // ),
 
-                                // InkWell(
-                                //   // ignore: avoid_print
-                                //   onTap: model.toggleDelete
-                                //       ? null
-                                //       : () => model.incrementItem(
-                                //             tabNumber,
-                                //             1,
-                                //             index,
-                                //           ),
-                                //   onLongPress: () =>
-                                //       model.toggleDelete = !model.toggleDelete,
-                                //   child:
-                                Container(
-                                  width: 250,
-                                  height: 75,
-                                  decoration: BoxDecoration(
-                                    // ignore: use_full_hex_values_for_flutter_colors
-                                    color: const Color(0xFFBFBBB6)
-                                        .withOpacity(0.2),
-                                    borderRadius: const BorderRadius.all(
-                                      Radius.circular(15),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(18.0),
-                                    child: Text(
-                                      model.getItemNameFromIndexs(
-                                        tabNumber,
-                                        1,
-                                        index,
+                                SizedBox(
+                                  width: 500,
+                                  child: InkWell(
+                                    // ignore: avoid_print
+                                    onTap: () {
+                                      if (model.getItemValueFromIndexs(
+                                            tabNumber,
+                                            1,
+                                            index,
+                                          ) ==
+                                          0) {
+                                        model.incrementItem(
+                                            tabNumber, 1, index);
+                                      }
+                                    },
+                                    // onLongPress: () =>
+                                    //     model.toggleDelete = !model.toggleDelete,
+                                    child: Container(
+                                      // width: 250,
+                                      // height: 75,
+                                      decoration: BoxDecoration(
+                                        // ignore: use_full_hex_values_for_flutter_colors
+                                        color: const Color(0xFFBFBBB6)
+                                            .withOpacity(0.2),
+                                        borderRadius: const BorderRadius.all(
+                                          Radius.circular(15),
+                                        ),
+                                      ),
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(18.0),
+                                        child: Column(
+                                          children: [
+                                            Image.asset(
+                                              model.protien[index].assetPath,
+                                              height: 30,
+                                            ),
+                                            SizedBox(
+                                              height: 6,
+                                            ),
+                                            Text(
+                                              model.protien[index].displayName,
+                                              style: itemTextStyle(),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ),
                                 ),
-                                // ),
-                                Positioned(
-                                  bottom: 1.0,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      // ignore: use_full_hex_values_for_flutter_colors
-                                      color: const Color(0xFF84A94F)
-                                          .withOpacity(0.2),
-                                      borderRadius: const BorderRadius.all(
-                                        Radius.circular(15),
+                                Visibility(
+                                  visible: model.getItemValueFromIndexs(
+                                        tabNumber,
+                                        1,
+                                        index,
+                                      ) !=
+                                      0,
+                                  child: Transform.translate(
+                                    offset: Offset(90, 5),
+                                    child: Positioned(
+                                      bottom: 1.0,
+                                      child: Container(
+                                        // decoration: BoxDecoration(
+                                        //   // ignore: use_full_hex_values_for_flutter_colors
+                                        //   color: const Color(0xFF84A94F)
+                                        //       .withOpacity(0.2),
+                                        //   borderRadius: const BorderRadius.all(
+                                        //     Radius.circular(15),
+                                        //   ),
+                                        // ),
+                                        height:
+                                            MediaQuery.of(context).size.width /
+                                                4,
+                                        child: Column(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.incrementItem(
+                                                  tabNumber,
+                                                  1,
+                                                  index,
+                                                ),
+                                                color: const Color.fromARGB(
+                                                  255,
+                                                  254,
+                                                  114,
+                                                  76,
+                                                ),
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.add,
+                                                  color: Colors.white,
+                                                ),
+                                              ),
+                                            ),
+                                            Text(
+                                              model
+                                                  .getItemValueFromIndexs(
+                                                    tabNumber,
+                                                    1,
+                                                    index,
+                                                  )
+                                                  .toString(),
+                                              style: itemTextStyle(),
+                                            ),
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.decrementItem(
+                                                  tabNumber,
+                                                  1,
+                                                  index,
+                                                ),
+                                                color: Colors.white,
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.remove,
+                                                  color: Colors.black,
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
                                       ),
-                                    ),
-                                    width:
-                                        MediaQuery.of(context).size.width / 4,
-                                    child: Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.incrementItem(
-                                              tabNumber,
-                                              1,
-                                              index,
-                                            ),
-                                            color: const Color.fromARGB(
-                                              255,
-                                              254,
-                                              114,
-                                              76,
-                                            ),
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.add,
-                                              color: Colors.white,
-                                            ),
-                                          ),
-                                        ),
-                                        Text(
-                                          model
-                                              .getItemValueFromIndexs(
-                                                tabNumber,
-                                                1,
-                                                index,
-                                              )
-                                              .toString(),
-                                        ),
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.decrementItem(
-                                              tabNumber,
-                                              1,
-                                              index,
-                                            ),
-                                            color: Colors.white,
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.remove,
-                                              color: Colors.black,
-                                            ),
-                                          ),
-                                        ),
-                                      ],
                                     ),
                                   ),
                                 ),
@@ -801,17 +870,17 @@ class HomeView extends StatelessWidget {
                   height: 20,
                 ),
                 SizedBox(
-                  height: 180,
+                  height: 200,
                   child: GridView.count(
                     scrollDirection: Axis.horizontal,
                     mainAxisSpacing: 10.0,
                     crossAxisCount: 2,
                     children: List.generate(
-                      model.getItemsLengthFromIndexs(tabNumber, 2),
+                      model.friuts.length,
                       (index) {
                         return Center(
                           child: Padding(
-                            padding: const EdgeInsets.only(top: 10),
+                            padding: const EdgeInsets.only(top: 9),
                             child: Stack(
                               children: [
                                 // Visibility(
@@ -891,153 +960,190 @@ class HomeView extends StatelessWidget {
                                 //   ),
                                 // ),
 
-                                // InkWell(
-                                //   // ignore: avoid_print
-                                //   onTap: model.toggleDelete
-                                //       ? null
-                                //       : () => model.incrementItem(
-                                //             tabNumber,
-                                //             2,
-                                //             index,
-                                //           ),
-                                //   onLongPress: () =>
-                                //       model.toggleDelete = !model.toggleDelete,
-                                //   child:
-                                Container(
-                                  width: 250,
-                                  height: 75,
-                                  decoration: BoxDecoration(
-                                    // ignore: use_full_hex_values_for_flutter_colors
-                                    color: const Color(0xFFF3B65A)
-                                        .withOpacity(0.2),
-                                    borderRadius: const BorderRadius.all(
-                                      Radius.circular(15),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(18.0),
-                                    child: Text(
-                                      model.getItemNameFromIndexs(
-                                        tabNumber,
-                                        2,
-                                        index,
+                                SizedBox(
+                                  width: 500,
+                                  child: InkWell(
+                                    // ignore: avoid_print
+                                    onTap: () {
+                                      if (model.getItemValueFromIndexs(
+                                            tabNumber,
+                                            2,
+                                            index,
+                                          ) ==
+                                          0) {
+                                        model.incrementItem(
+                                          tabNumber,
+                                          2,
+                                          index,
+                                        );
+                                      }
+                                    },
+                                    // onLongPress: () =>
+                                    //     model.toggleDelete = !model.toggleDelete,
+                                    child: Container(
+                                      // width: 250,
+                                      // height: 75,
+                                      decoration: BoxDecoration(
+                                        // ignore: use_full_hex_values_for_flutter_colors
+                                        color: const Color(0xFFF3B65A)
+                                            .withOpacity(0.2),
+                                        borderRadius: const BorderRadius.all(
+                                          Radius.circular(15),
+                                        ),
+                                      ),
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(18.0),
+                                        child: Column(
+                                          children: [
+                                            Image.asset(
+                                              model.friuts[index].assetPath,
+                                              height: 30,
+                                            ),
+                                            SizedBox(
+                                              height: 6,
+                                            ),
+                                            Text(
+                                              model.friuts[index].displayName,
+                                              style: itemTextStyle(),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ),
                                 ),
-                                // ),
-                                Positioned(
-                                  bottom: 1.0,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      // ignore: use_full_hex_values_for_flutter_colors
-                                      color: const Color(0xFF84A94F)
-                                          .withOpacity(0.2),
-                                      borderRadius: const BorderRadius.all(
-                                        Radius.circular(15),
+                                Visibility(
+                                  visible: model.getItemValueFromIndexs(
+                                        tabNumber,
+                                        2,
+                                        index,
+                                      ) !=
+                                      0,
+                                  child: Transform.translate(
+                                    offset: Offset(75, 0),
+                                    child: Positioned(
+                                      bottom: 1.0,
+                                      child: Container(
+                                        // decoration: BoxDecoration(
+                                        //   // ignore: use_full_hex_values_for_flutter_colors
+                                        //   color: const Color(0xFF84A94F)
+                                        //       .withOpacity(0.2),
+                                        //   borderRadius: const BorderRadius.all(
+                                        //     Radius.circular(15),
+                                        //   ),
+                                        // ),
+                                        height:
+                                            MediaQuery.of(context).size.width /
+                                                4,
+                                        child: Column(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.incrementItem(
+                                                  tabNumber,
+                                                  2,
+                                                  index,
+                                                ),
+                                                color: const Color.fromARGB(
+                                                  255,
+                                                  254,
+                                                  114,
+                                                  76,
+                                                ),
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.add,
+                                                  color: Colors.white,
+                                                ),
+                                              ),
+                                            ),
+                                            Text(
+                                              model
+                                                  .getItemValueFromIndexs(
+                                                    tabNumber,
+                                                    2,
+                                                    index,
+                                                  )
+                                                  .toString(),
+                                              style: itemTextStyle(),
+                                            ),
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.decrementItem(
+                                                  tabNumber,
+                                                  2,
+                                                  index,
+                                                ),
+                                                color: Colors.white,
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.remove,
+                                                  color: Colors.black,
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
                                       ),
-                                    ),
-                                    width:
-                                        MediaQuery.of(context).size.width / 4,
-                                    child: Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.incrementItem(
-                                              tabNumber,
-                                              2,
-                                              index,
-                                            ),
-                                            color: const Color.fromARGB(
-                                              255,
-                                              254,
-                                              114,
-                                              76,
-                                            ),
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.add,
-                                              color: Colors.white,
-                                            ),
-                                          ),
-                                        ),
-                                        Text(
-                                          model
-                                              .getItemValueFromIndexs(
-                                                tabNumber,
-                                                2,
-                                                index,
-                                              )
-                                              .toString(),
-                                        ),
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.decrementItem(
-                                              tabNumber,
-                                              2,
-                                              index,
-                                            ),
-                                            color: Colors.white,
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.remove,
-                                              color: Colors.black,
-                                            ),
-                                          ),
-                                        ),
-                                      ],
                                     ),
                                   ),
                                 ),
@@ -1106,13 +1212,13 @@ class HomeView extends StatelessWidget {
                   height: 20,
                 ),
                 SizedBox(
-                  height: 180,
+                  height: 230,
                   child: GridView.count(
                     scrollDirection: Axis.horizontal,
                     mainAxisSpacing: 10.0,
                     crossAxisCount: 2,
                     children: List.generate(
-                      model.getItemsLengthFromIndexs(tabNumber, 3),
+                      model.diary.length,
                       (index) {
                         return Center(
                           child: Padding(
@@ -1195,153 +1301,190 @@ class HomeView extends StatelessWidget {
                                 //     ),
                                 //   ),
                                 // ),
-                                // InkWell(
-                                //   // ignore: avoid_print
-                                //   onTap: model.toggleDelete
-                                //       ? null
-                                //       : () => model.incrementItem(
-                                //             tabNumber,
-                                //             3,
-                                //             index,
-                                //           ),
-                                //   onLongPress: () =>
-                                //       model.toggleDelete = !model.toggleDelete,
-                                //   child:
-                                Container(
-                                  width: 250,
-                                  height: 75,
-                                  decoration: BoxDecoration(
-                                    // ignore: use_full_hex_values_for_flutter_colors
-                                    color: const Color(0xFF55C2F1)
-                                        .withOpacity(0.2),
-                                    borderRadius: const BorderRadius.all(
-                                      Radius.circular(15),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(18.0),
-                                    child: Text(
-                                      model.getItemNameFromIndexs(
-                                        tabNumber,
-                                        3,
-                                        index,
+                                SizedBox(
+                                  width: 500,
+                                  child: InkWell(
+                                    // ignore: avoid_print
+                                    onTap: () {
+                                      if (model.getItemValueFromIndexs(
+                                            tabNumber,
+                                            3,
+                                            index,
+                                          ) ==
+                                          0) {
+                                        model.incrementItem(
+                                          tabNumber,
+                                          3,
+                                          index,
+                                        );
+                                      }
+                                    },
+                                    // onLongPress: () =>
+                                    //     model.toggleDelete = !model.toggleDelete,
+                                    child: Container(
+                                      // width: 250,
+                                      // height: 75,
+                                      decoration: BoxDecoration(
+                                        // ignore: use_full_hex_values_for_flutter_colors
+                                        color: const Color(0xFF55C2F1)
+                                            .withOpacity(0.2),
+                                        borderRadius: const BorderRadius.all(
+                                          Radius.circular(15),
+                                        ),
+                                      ),
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(18.0),
+                                        child: Column(
+                                          children: [
+                                            Image.asset(
+                                              model.diary[index].assetPath,
+                                              height: 30,
+                                            ),
+                                            SizedBox(
+                                              height: 6,
+                                            ),
+                                            Text(
+                                              model.diary[index].displayName,
+                                              style: itemTextStyle(),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ),
                                 ),
-                                // ),
-                                Positioned(
-                                  bottom: 1.0,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      // ignore: use_full_hex_values_for_flutter_colors
-                                      color: const Color(0xFF84A94F)
-                                          .withOpacity(0.2),
-                                      borderRadius: const BorderRadius.all(
-                                        Radius.circular(15),
+                                Visibility(
+                                  visible: model.getItemValueFromIndexs(
+                                        tabNumber,
+                                        3,
+                                        index,
+                                      ) !=
+                                      0,
+                                  child: Transform.translate(
+                                    offset: Offset(90, 5),
+                                    child: Positioned(
+                                      bottom: 1.0,
+                                      child: Container(
+                                        // decoration: BoxDecoration(
+                                        //   // ignore: use_full_hex_values_for_flutter_colors
+                                        //   color: const Color(0xFF84A94F)
+                                        //       .withOpacity(0.2),
+                                        //   borderRadius: const BorderRadius.all(
+                                        //     Radius.circular(15),
+                                        //   ),
+                                        // ),
+                                        height:
+                                            MediaQuery.of(context).size.width /
+                                                4,
+                                        child: Column(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.incrementItem(
+                                                  tabNumber,
+                                                  3,
+                                                  index,
+                                                ),
+                                                color: const Color.fromARGB(
+                                                  255,
+                                                  254,
+                                                  114,
+                                                  76,
+                                                ),
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.add,
+                                                  color: Colors.white,
+                                                ),
+                                              ),
+                                            ),
+                                            Text(
+                                              model
+                                                  .getItemValueFromIndexs(
+                                                    tabNumber,
+                                                    3,
+                                                    index,
+                                                  )
+                                                  .toString(),
+                                              style: itemTextStyle(),
+                                            ),
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.decrementItem(
+                                                  tabNumber,
+                                                  3,
+                                                  index,
+                                                ),
+                                                color: Colors.white,
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.remove,
+                                                  color: Colors.black,
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
                                       ),
-                                    ),
-                                    width:
-                                        MediaQuery.of(context).size.width / 4,
-                                    child: Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.incrementItem(
-                                              tabNumber,
-                                              3,
-                                              index,
-                                            ),
-                                            color: const Color.fromARGB(
-                                              255,
-                                              254,
-                                              114,
-                                              76,
-                                            ),
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.add,
-                                              color: Colors.white,
-                                            ),
-                                          ),
-                                        ),
-                                        Text(
-                                          model
-                                              .getItemValueFromIndexs(
-                                                tabNumber,
-                                                3,
-                                                index,
-                                              )
-                                              .toString(),
-                                        ),
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.decrementItem(
-                                              tabNumber,
-                                              3,
-                                              index,
-                                            ),
-                                            color: Colors.white,
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.remove,
-                                              color: Colors.black,
-                                            ),
-                                          ),
-                                        ),
-                                      ],
                                     ),
                                   ),
                                 ),
@@ -1410,13 +1553,13 @@ class HomeView extends StatelessWidget {
                   height: 20,
                 ),
                 SizedBox(
-                  height: 180,
+                  height: 228,
                   child: GridView.count(
                     scrollDirection: Axis.horizontal,
                     mainAxisSpacing: 10.0,
                     crossAxisCount: 2,
                     children: List.generate(
-                      model.getItemsLengthFromIndexs(tabNumber, 4),
+                      model.nuts.length,
                       (index) {
                         return Center(
                           child: Padding(
@@ -1499,153 +1642,190 @@ class HomeView extends StatelessWidget {
                                 //     ),
                                 //   ),
                                 // ),
-                                // InkWell(
-                                //   // ignore: avoid_print
-                                //   onTap: model.toggleDelete
-                                //       ? null
-                                //       : () => model.incrementItem(
-                                //             tabNumber,
-                                //             4,
-                                //             index,
-                                //           ),
-                                //   onLongPress: () =>
-                                //       model.toggleDelete = !model.toggleDelete,
-                                //   child:
-                                Container(
-                                  width: 250,
-                                  height: 75,
-                                  decoration: BoxDecoration(
-                                    // ignore: use_full_hex_values_for_flutter_colors
-                                    color: const Color(0xFFED8B88)
-                                        .withOpacity(0.2),
-                                    borderRadius: const BorderRadius.all(
-                                      Radius.circular(15),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(18.0),
-                                    child: Text(
-                                      model.getItemNameFromIndexs(
-                                        tabNumber,
-                                        4,
-                                        index,
+                                SizedBox(
+                                  width: 500,
+                                  child: InkWell(
+                                    // ignore: avoid_print
+                                    onTap: () {
+                                      if (model.getItemValueFromIndexs(
+                                            tabNumber,
+                                            4,
+                                            index,
+                                          ) ==
+                                          0) {
+                                        model.incrementItem(
+                                          tabNumber,
+                                          4,
+                                          index,
+                                        );
+                                      }
+                                    },
+                                    // onLongPress: () =>
+                                    //     model.toggleDelete = !model.toggleDelete,
+                                    child: Container(
+                                      // width: 250,
+                                      // height: 75,
+                                      decoration: BoxDecoration(
+                                        // ignore: use_full_hex_values_for_flutter_colors
+                                        color: const Color(0xFFED8B88)
+                                            .withOpacity(0.2),
+                                        borderRadius: const BorderRadius.all(
+                                          Radius.circular(15),
+                                        ),
+                                      ),
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(18.0),
+                                        child: Column(
+                                          children: [
+                                            Image.asset(
+                                              model.nuts[index].assetPath,
+                                              height: 30,
+                                            ),
+                                            SizedBox(
+                                              height: 6,
+                                            ),
+                                            Text(
+                                              model.nuts[index].displayName,
+                                              style: itemTextStyle(),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ),
                                 ),
-                                // ),
-                                Positioned(
-                                  bottom: 1.0,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      // ignore: use_full_hex_values_for_flutter_colors
-                                      color: const Color(0xFF84A94F)
-                                          .withOpacity(0.2),
-                                      borderRadius: const BorderRadius.all(
-                                        Radius.circular(15),
-                                      ),
-                                    ),
-                                    width:
-                                        MediaQuery.of(context).size.width / 4,
-                                    child: Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.incrementItem(
-                                              tabNumber,
-                                              4,
-                                              index,
-                                            ),
-                                            color: const Color.fromARGB(
-                                              255,
-                                              254,
-                                              114,
-                                              76,
-                                            ),
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.add,
-                                              color: Colors.white,
-                                            ),
-                                          ),
-                                        ),
-                                        Text(
-                                          model
-                                              .getItemValueFromIndexs(
-                                                tabNumber,
+                                Visibility(
+                                  visible: model.getItemValueFromIndexs(
+                                        tabNumber,
+                                        4,
+                                        index,
+                                      ) !=
+                                      0,
+                                  child: Transform.translate(
+                                    offset: Offset(90, 5),
+                                    child: Positioned(
+                                      bottom: 1.0,
+                                      child: SizedBox(
+                                        // decoration: BoxDecoration(
+                                        //   // ignore: use_full_hex_values_for_flutter_colors
+                                        //   color: const Color(0xFF84A94F)
+                                        //       .withOpacity(0.2),
+                                        //   borderRadius: const BorderRadius.all(
+                                        //     Radius.circular(15),
+                                        //   ),
+                                        // ),
+                                        height:
+                                            MediaQuery.of(context).size.width /
                                                 4,
-                                                index,
-                                              )
-                                              .toString(),
-                                        ),
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.decrementItem(
-                                              tabNumber,
-                                              4,
-                                              index,
-                                            ),
-                                            color: Colors.white,
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
+                                        child: Column(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.incrementItem(
+                                                  tabNumber,
+                                                  4,
+                                                  index,
                                                 ),
-                                                width: 1.5,
+                                                color: const Color.fromARGB(
+                                                  255,
+                                                  254,
+                                                  114,
+                                                  76,
+                                                ),
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.add,
+                                                  color: Colors.white,
+                                                ),
                                               ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
+                                            ),
+                                            Text(
+                                              model
+                                                  .getItemValueFromIndexs(
+                                                    tabNumber,
+                                                    4,
+                                                    index,
+                                                  )
+                                                  .toString(),
+                                              style: itemTextStyle(),
+                                            ),
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.decrementItem(
+                                                  tabNumber,
+                                                  4,
+                                                  index,
+                                                ),
+                                                color: Colors.white,
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.remove,
+                                                  color: Colors.black,
+                                                ),
                                               ),
                                             ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.remove,
-                                              color: Colors.black,
-                                            ),
-                                          ),
+                                          ],
                                         ),
-                                      ],
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -1714,13 +1894,13 @@ class HomeView extends StatelessWidget {
                   height: 20,
                 ),
                 SizedBox(
-                  height: 180,
+                  height: 200,
                   child: GridView.count(
                     scrollDirection: Axis.horizontal,
                     mainAxisSpacing: 10.0,
                     crossAxisCount: 2,
                     children: List.generate(
-                      model.getItemsLengthFromIndexs(tabNumber, 5),
+                      model.vegies.length,
                       (index) {
                         return Center(
                           child: Padding(
@@ -1803,153 +1983,189 @@ class HomeView extends StatelessWidget {
                                 //     ),
                                 //   ),
                                 // ),
-                                // InkWell(
-                                //   // ignore: avoid_print
-                                //   onTap: model.toggleDelete
-                                //       ? null
-                                //       : () => model.incrementItem(
-                                //             tabNumber,
-                                //             5,
-                                //             index,
-                                //           ),
-                                //   onLongPress: () =>
-                                //       model.toggleDelete = !model.toggleDelete,
-                                //   child:
-                                Container(
-                                  width: 250,
-                                  height: 75,
-                                  decoration: BoxDecoration(
-                                    // ignore: use_full_hex_values_for_flutter_colors
-                                    color: const Color(0xFFB7DB71)
-                                        .withOpacity(0.2),
-                                    borderRadius: const BorderRadius.all(
-                                      Radius.circular(15),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(18.0),
-                                    child: Text(
-                                      model.getItemNameFromIndexs(
-                                        tabNumber,
-                                        5,
-                                        index,
+                                SizedBox(
+                                  width: 500,
+                                  child: InkWell(
+                                    // ignore: avoid_print
+                                    onTap: () {
+                                      if (model.getItemValueFromIndexs(
+                                            tabNumber,
+                                            5,
+                                            index,
+                                          ) ==
+                                          0) {
+                                        model.incrementItem(
+                                          tabNumber,
+                                          5,
+                                          index,
+                                        );
+                                      }
+                                    },
+                                    // onLongPress: () =>
+                                    //     model.toggleDelete = !model.toggleDelete,
+                                    child: Container(
+                                      // width: 250,
+                                      // height: 75,
+                                      decoration: BoxDecoration(
+                                        // ignore: use_full_hex_values_for_flutter_colors
+                                        color: const Color(0xFFB7DB71)
+                                            .withOpacity(0.2),
+                                        borderRadius: const BorderRadius.all(
+                                          Radius.circular(15),
+                                        ),
+                                      ),
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(18.0),
+                                        child: Column(
+                                          children: [
+                                            Image.asset(
+                                              model.vegies[index].assetPath,
+                                              height: 30,
+                                            ),
+                                            SizedBox(
+                                              height: 6,
+                                            ),
+                                            Text(
+                                              model.vegies[index].displayName,
+                                              style: itemTextStyle(),
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ),
                                 ),
-                                // ),
-                                Positioned(
-                                  bottom: 1.0,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      // ignore: use_full_hex_values_for_flutter_colors
-                                      color: const Color(0xFF84A94F)
-                                          .withOpacity(0.2),
-                                      borderRadius: const BorderRadius.all(
-                                        Radius.circular(15),
+                                Visibility(
+                                  visible: model.getItemValueFromIndexs(
+                                        tabNumber,
+                                        5,
+                                        index,
+                                      ) !=
+                                      0,
+                                  child: Transform.translate(
+                                    offset: Offset(75, 0),
+                                    child: Positioned(
+                                      right: 1.0,
+                                      child: Container(
+                                        // decoration: BoxDecoration(
+                                        //   // ignore: use_full_hex_values_for_flutter_colors
+                                        //   color: const Color(0xFF84A94F)
+                                        //       .withOpacity(0.2),
+                                        //   borderRadius: const BorderRadius.all(
+                                        //     Radius.circular(15),
+                                        //   ),
+                                        // ),
+                                        height:
+                                            MediaQuery.of(context).size.width /
+                                                4,
+                                        child: Column(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.incrementItem(
+                                                  tabNumber,
+                                                  5,
+                                                  index,
+                                                ),
+                                                color: const Color.fromARGB(
+                                                  255,
+                                                  254,
+                                                  114,
+                                                  76,
+                                                ),
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.add,
+                                                  color: Colors.white,
+                                                ),
+                                              ),
+                                            ),
+                                            Text(
+                                              model
+                                                  .getItemValueFromIndexs(
+                                                    tabNumber,
+                                                    5,
+                                                    index,
+                                                  )
+                                                  .toString(),
+                                              style: itemTextStyle(),
+                                            ),
+                                            SizedBox(
+                                              width: 32,
+                                              height: 32,
+                                              // ignore: deprecated_member_use
+                                              child: FlatButton(
+                                                onPressed: () =>
+                                                    model.decrementItem(
+                                                  tabNumber,
+                                                  5,
+                                                  index,
+                                                ),
+                                                color: Colors.white,
+                                                shape:
+                                                    const RoundedRectangleBorder(
+                                                  side: BorderSide(
+                                                    color: Color.fromARGB(
+                                                      255,
+                                                      39,
+                                                      45,
+                                                      47,
+                                                    ),
+                                                    width: 1.5,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.all(
+                                                    Radius.circular(16),
+                                                  ),
+                                                ),
+                                                textColor: const Color.fromARGB(
+                                                  255,
+                                                  0,
+                                                  0,
+                                                  0,
+                                                ),
+                                                // ignore: use_named_constants
+                                                padding:
+                                                    const EdgeInsets.all(0),
+                                                child: const Icon(
+                                                  Icons.remove,
+                                                  color: Colors.black,
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
                                       ),
-                                    ),
-                                    width:
-                                        MediaQuery.of(context).size.width / 4,
-                                    child: Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.incrementItem(
-                                              tabNumber,
-                                              5,
-                                              index,
-                                            ),
-                                            color: const Color.fromARGB(
-                                              255,
-                                              254,
-                                              114,
-                                              76,
-                                            ),
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.add,
-                                              color: Colors.white,
-                                            ),
-                                          ),
-                                        ),
-                                        Text(
-                                          model
-                                              .getItemValueFromIndexs(
-                                                tabNumber,
-                                                5,
-                                                index,
-                                              )
-                                              .toString(),
-                                        ),
-                                        SizedBox(
-                                          width: 32,
-                                          height: 32,
-                                          // ignore: deprecated_member_use
-                                          child: FlatButton(
-                                            onPressed: () =>
-                                                model.decrementItem(
-                                              tabNumber,
-                                              5,
-                                              index,
-                                            ),
-                                            color: Colors.white,
-                                            shape: const RoundedRectangleBorder(
-                                              side: BorderSide(
-                                                color: Color.fromARGB(
-                                                  255,
-                                                  39,
-                                                  45,
-                                                  47,
-                                                ),
-                                                width: 1.5,
-                                              ),
-                                              borderRadius: BorderRadius.all(
-                                                Radius.circular(16),
-                                              ),
-                                            ),
-                                            textColor: const Color.fromARGB(
-                                              255,
-                                              0,
-                                              0,
-                                              0,
-                                            ),
-                                            // ignore: use_named_constants
-                                            padding: const EdgeInsets.all(0),
-                                            child: const Icon(
-                                              Icons.remove,
-                                              color: Colors.black,
-                                            ),
-                                          ),
-                                        ),
-                                      ],
                                     ),
                                   ),
                                 ),

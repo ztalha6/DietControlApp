@@ -13,35 +13,25 @@ class UserRepository {
       "carbs": {
         "Chapati": 0,
         "Rice": 0,
-        "Bread": 0,
-        "Oats": 0,
-        "Noodles": 0,
+        "BreadOats": 0,
+        "PastaNoodles": 0,
         "Patato": 0
       },
       "protein": {
-        "Chicken": 0,
+        "ChickenMeat": 0,
         "Eggs": 0,
         "Beans": 0,
         "Fish": 0,
-        "Tofo": 0,
-        "Paye": 0
+        "besan": 0
       },
       "fruits": {
-        "Melon": 0,
         "AnyFruits": 0,
+        "Melon": 0,
         "Orange": 0,
-        "Grapes": 0,
-        "MixFruitChat": 0,
-        "Mango": 0
+        "FriutJuice": 0,
+        "MixFruitChat": 0
       },
-      "dariy": {
-        "Slcimed": 0,
-        "LowFatChees": 0,
-        "LowFatWithOutSugar": 0,
-        "Yougat": 0,
-        "NutMilk": 0,
-        "Chicken": 0
-      },
+      "dariy": {"LowFatChees": 0, "LowFatMilk": 0, "Yougat": 0, "NutMilk": 0},
       "fat": {"Almond": 0, "FattySeeds": 0},
       "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     },
@@ -49,35 +39,25 @@ class UserRepository {
       "carbs": {
         "Chapati": 0,
         "Rice": 0,
-        "Bread": 0,
-        "Oats": 0,
-        "Noodles": 0,
+        "BreadOats": 0,
+        "PastaNoodles": 0,
         "Patato": 0
       },
       "protein": {
-        "Chicken": 0,
+        "ChickenMeat": 0,
         "Eggs": 0,
         "Beans": 0,
         "Fish": 0,
-        "Tofo": 0,
-        "Paye": 0
+        "besan": 0
       },
       "fruits": {
-        "Melon": 0,
         "AnyFruits": 0,
+        "Melon": 0,
         "Orange": 0,
-        "Grapes": 0,
-        "MixFruitChat": 0,
-        "Mango": 0
+        "FriutJuice": 0,
+        "MixFruitChat": 0
       },
-      "dariy": {
-        "Slcimed": 0,
-        "LowFatChees": 0,
-        "LowFatWithOutSugar": 0,
-        "Yougat": 0,
-        "NutMilk": 0,
-        "Chicken": 0
-      },
+      "dariy": {"LowFatChees": 0, "LowFatMilk": 0, "Yougat": 0, "NutMilk": 0},
       "fat": {"Almond": 0, "FattySeeds": 0},
       "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     },
@@ -85,35 +65,25 @@ class UserRepository {
       "carbs": {
         "Chapati": 0,
         "Rice": 0,
-        "Bread": 0,
-        "Oats": 0,
-        "Noodles": 0,
+        "BreadOats": 0,
+        "PastaNoodles": 0,
         "Patato": 0
       },
       "protein": {
-        "Chicken": 0,
+        "ChickenMeat": 0,
         "Eggs": 0,
         "Beans": 0,
         "Fish": 0,
-        "Tofo": 0,
-        "Paye": 0
+        "besan": 0
       },
       "fruits": {
-        "Melon": 0,
         "AnyFruits": 0,
+        "Melon": 0,
         "Orange": 0,
-        "Grapes": 0,
-        "MixFruitChat": 0,
-        "Mango": 0
+        "FriutJuice": 0,
+        "MixFruitChat": 0
       },
-      "dariy": {
-        "Slcimed": 0,
-        "LowFatChees": 0,
-        "LowFatWithOutSugar": 0,
-        "Yougat": 0,
-        "NutMilk": 0,
-        "Chicken": 0
-      },
+      "dariy": {"LowFatChees": 0, "LowFatMilk": 0, "Yougat": 0, "NutMilk": 0},
       "fat": {"Almond": 0, "FattySeeds": 0},
       "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     },
@@ -121,35 +91,25 @@ class UserRepository {
       "carbs": {
         "Chapati": 0,
         "Rice": 0,
-        "Bread": 0,
-        "Oats": 0,
-        "Noodles": 0,
+        "BreadOats": 0,
+        "PastaNoodles": 0,
         "Patato": 0
       },
       "protein": {
-        "Chicken": 0,
+        "ChickenMeat": 0,
         "Eggs": 0,
         "Beans": 0,
         "Fish": 0,
-        "Tofo": 0,
-        "Paye": 0
+        "besan": 0
       },
       "fruits": {
-        "Melon": 0,
         "AnyFruits": 0,
+        "Melon": 0,
         "Orange": 0,
-        "Grapes": 0,
-        "MixFruitChat": 0,
-        "Mango": 0
+        "FriutJuice": 0,
+        "MixFruitChat": 0
       },
-      "dariy": {
-        "Slcimed": 0,
-        "LowFatChees": 0,
-        "LowFatWithOutSugar": 0,
-        "Yougat": 0,
-        "NutMilk": 0,
-        "Chicken": 0
-      },
+      "dariy": {"LowFatChees": 0, "LowFatMilk": 0, "Yougat": 0, "NutMilk": 0},
       "fat": {"Almond": 0, "FattySeeds": 0},
       "vegies": {"AllVeggies": 0, "Corns": 0, "Olives": 0}
     }
