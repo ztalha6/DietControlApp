@@ -4,7 +4,10 @@ import 'package:calories_counter/src/views/bottom_navbar/bottomBar_viewModel.dar
 import 'package:calories_counter/src/views/history/history_view.dart';
 import 'package:calories_counter/src/views/home/home_view.dart';
 import 'package:calories_counter/src/views/stats/stats_view.dart';
+import 'package:calories_counter/src/views/subscribtion/subscribtion_view.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:stacked/stacked.dart';
 
 class BottomNavBarView extends StatelessWidget {
@@ -29,37 +32,80 @@ class BottomNavBarView extends StatelessWidget {
             ],
           ),
         ),
-        bottomNavigationBar: BottomNavyBar(
-          containerHeight: 66,
-          showElevation: false,
-          selectedIndex: model.currentIndex,
-          onItemSelected: (index) {
-            model.currentIndex = index;
-            model.pageController.jumpToPage(index);
-          },
-          items: <BottomNavyBarItem>[
-            getBottomBarItem(context, 'Home', model.currentIndex, 0,
-                'assets/images/bottomBar/home.png', Icon(Icons.home_outlined)),
-            getBottomBarItem(
-                context,
-                'Stats',
-                model.currentIndex,
-                1,
-                'assets/images/bottomBar/home.png',
-                Icon(Icons.stacked_bar_chart_sharp)),
-            getBottomBarItem(context, 'History', model.currentIndex, 2,
-                'assets/images/bottomBar/home.png', Icon(Icons.history)),
-            getBottomBarItem(
-              context,
-              'Profile',
-              model.currentIndex,
-              3,
-              'assets/images/bottomBar/profile.png',
-              Icon(Icons.person_outline_rounded),
+        bottomNavigationBar: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Visibility(
+              visible: model.bannarad.available as bool,
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      InkWell(
+                          onTap: () => navigateToSubscribeVew(context),
+                          child: Icon(Icons.close))
+                    ],
+                  ),
+                  SizedBox(
+                    height: model.bannarad.ad!.size.height.toDouble(),
+                    width: double.infinity,
+                    child: AdWidget(ad: model.bannarad.ad!),
+                  ),
+                ],
+              ),
+            ),
+            // Container(
+            //   height: model.bannarprovider.adSize.height.toDouble(),
+            //   width: double.infinity,
+            //   color: Colors.blue,
+            //   child: AdWidget(ad: model.bannarprovider.ad!),
+            // ),
+            BottomNavyBar(
+              containerHeight: 66,
+              showElevation: false,
+              selectedIndex: model.currentIndex,
+              onItemSelected: (index) {
+                model.currentIndex = index;
+                model.pageController.jumpToPage(index);
+              },
+              items: <BottomNavyBarItem>[
+                getBottomBarItem(
+                    context,
+                    'Home',
+                    model.currentIndex,
+                    0,
+                    'assets/images/bottomBar/home.png',
+                    Icon(Icons.home_outlined)),
+                getBottomBarItem(
+                    context,
+                    'Stats',
+                    model.currentIndex,
+                    1,
+                    'assets/images/bottomBar/home.png',
+                    Icon(Icons.stacked_bar_chart_sharp)),
+                getBottomBarItem(context, 'History', model.currentIndex, 2,
+                    'assets/images/bottomBar/home.png', Icon(Icons.history)),
+                getBottomBarItem(
+                  context,
+                  'Profile',
+                  model.currentIndex,
+                  3,
+                  'assets/images/bottomBar/profile.png',
+                  Icon(Icons.person_outline_rounded),
+                ),
+              ],
             ),
           ],
         ),
       ),
+    );
+  }
+
+  void navigateToSubscribeVew(BuildContext context) {
+    Navigator.push(
+      context,
+      CupertinoPageRoute(builder: (context) => SubscribeView()),
     );
   }
 

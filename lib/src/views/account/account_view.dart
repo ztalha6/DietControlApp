@@ -3,6 +3,7 @@ import 'package:calories_counter/src/views/account/account_viewModel.dart';
 import 'package:calories_counter/src/views/pref_intake/pref_intake_view.dart';
 import 'package:calories_counter/src/views/profile/profile_view.dart';
 import 'package:calories_counter/src/views/sign_in/sign_in_view.dart';
+import 'package:calories_counter/src/views/subscribtion/subscribtion_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
@@ -67,7 +68,7 @@ class AccountView extends StatelessWidget {
                     color: Colors.black,
                   ),
                   title: 'In-App',
-                  ontap: () {},
+                  ontap: () => navigateToSubscribeVew(context),
                 ),
                 const SizedBox(
                   height: 50,
@@ -96,6 +97,13 @@ class AccountView extends StatelessWidget {
     Navigator.push(
       context,
       CupertinoPageRoute(builder: (context) => const ProfileView()),
+    );
+  }
+
+  void navigateToSubscribeVew(BuildContext context) {
+    Navigator.push(
+      context,
+      CupertinoPageRoute(builder: (context) => SubscribeView()),
     );
   }
 

@@ -1,3 +1,7 @@
+ads_mediation_setup
+2.12
+file:///Users/rawaha/Developer/flutter/.pub-cache/git/flutter_ads_mediation-4a7942f124d06cc762831b33415836914f8b529c/
+file:///Users/rawaha/Developer/flutter/.pub-cache/git/flutter_ads_mediation-4a7942f124d06cc762831b33415836914f8b529c/lib/
 archive
 2.12
 file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/archive-3.1.11/
@@ -126,6 +130,10 @@ google_fonts
 2.12
 file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-2.2.0/
 file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-2.2.0/lib/
+google_mobile_ads
+2.12
+file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-1.0.1/
+file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-1.0.1/lib/
 google_sign_in
 2.14
 file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.2.3/
@@ -226,6 +234,10 @@ petitparser
 2.14
 file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-4.4.0/
 file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-4.4.0/lib/
+pie_chart
+2.12
+file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/pie_chart-5.1.0/
+file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/pie_chart-5.1.0/lib/
 platform
 2.12
 file:///Users/rawaha/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.1.0/

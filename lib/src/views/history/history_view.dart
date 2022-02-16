@@ -66,18 +66,26 @@ class HistoryView extends StatelessWidget {
             ),
           ),
         ),
-        body: ListView.builder(
-          // dragStartBehavior: DragStartBehavior.down,
-          // reverse: true,
-          physics: const BouncingScrollPhysics(),
-          padding: const EdgeInsets.symmetric(horizontal: 36, vertical: 16),
-          itemCount: model.dates.length,
-          itemBuilder: (context, index) => historyItem(
-            context,
-            model,
-            index,
-          ),
-        ),
+        body: model.dates.isEmpty
+            ? const Center(
+                child: Text(
+                  'No history yet!',
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                ),
+              )
+            : ListView.builder(
+                // dragStartBehavior: DragStartBehavior.down,
+                // reverse: true,
+                physics: const BouncingScrollPhysics(),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 36, vertical: 16),
+                itemCount: model.dates.length,
+                itemBuilder: (context, index) => historyItem(
+                  context,
+                  model,
+                  index,
+                ),
+              ),
       ),
     );
   }

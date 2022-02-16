@@ -33,7 +33,7 @@ class SignInViewModel extends BaseViewModel {
     GoogleSignIn _googleSignIn = GoogleSignIn();
     GoogleSignInAccount? googleSignInAccount = await _googleSignIn.signIn();
     if (googleSignInAccount != null) {
-      await DataService().saveUserLoginDetails(
+      DataService().saveUserLoginDetails(
         googleSignInAccount.displayName,
         googleSignInAccount.email,
       );

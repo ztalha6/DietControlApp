@@ -1,3 +1,5 @@
+import 'package:ads_mediation_setup/google_ads/rewarded_ads.dart';
+import 'package:calories_counter/ad_unit_ids/ad_unit_id.dart';
 import 'package:calories_counter/src/app.dart';
 import 'package:calories_counter/src/global/repos/user_repository.dart';
 import 'package:calories_counter/src/global/services/data_service/data_service.dart';
@@ -7,6 +9,7 @@ import 'package:calories_counter/src/model/diet_model.dart';
 import 'package:calories_counter/src/model/response_model.dart';
 import 'package:calories_counter/src/model/user_model.dart';
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 // ignore: depend_on_referenced_packages
 import 'package:intl/intl.dart';
 import 'package:stacked/stacked.dart';
@@ -227,7 +230,15 @@ class HomeViewModel extends BaseViewModel {
         .elementAt(itemNumber);
   }
 
+  RewardedAdsProvider rewardedAd =
+      RewardedAdsProvider(rewardedAdId: AdUnitId.rewarded);
+
+  loadRewardedAd() {
+    rewardedAd.show();
+  }
+
   Future<void> saveData(BuildContext context) async {
+    loadRewardedAd();
     for (var i = 0; i < 4; i++) {
       for (var j = 0; j < 6; j++) {
         finalDietData[getTabNameFromIndexs(i)]![

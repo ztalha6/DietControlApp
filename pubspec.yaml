@@ -53,6 +53,13 @@ dependencies:
   flutter_facebook_auth: ^4.0.1
   flutter_native_splash: ^2.0.1+1
   introduction_screen: ^2.1.0
+  pie_chart: ^5.1.0
+  google_mobile_ads: 1.0.1
+  ads_mediation_setup:
+    git:
+      url: https://github.com/ztalha6/flutter_ads_mediation.git
+      ref: master
+
 
 dev_dependencies:
   flutter_test:

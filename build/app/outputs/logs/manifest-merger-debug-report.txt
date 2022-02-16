@@ -1,10 +1,12 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:7:4-53:19
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:6:2-34:16
 MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-13:19
+MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-13:19
 MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
@@ -33,6 +35,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/cac
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:9:5-15:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/97cedce1916f6ec85e7c31887a368a9b/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
@@ -55,6 +59,14 @@ MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gr
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/7c57dbc72486eb532e35e67136d609e8/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/7c57dbc72486eb532e35e67136d609e8/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:14:5-25:19
+MERGED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:14:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:46:5-65:19
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:46:5-65:19
+MERGED from [com.google.android.gms:play-services-ads-base:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3b66f0872a842d581953c2e3e4964433/jetified-play-services-ads-base-20.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3b66f0872a842d581953c2e3e4964433/jetified-play-services-ads-base-20.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:15:5-71:19
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:15:5-71:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/1e75d3e35ae684f7f65a8421ffa7594e/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:7:5-20
@@ -63,10 +75,20 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/r
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/2b6296aecbf501728aa22fbff52ea4c1/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/4f1f09bd4ba5fbc6b6748842e6afc4b9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/4f1f09bd4ba5fbc6b6748842e6afc4b9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
 MERGED from [androidx.core:core:1.6.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ff453976176a403e13d8ed149ba417dd/core-1.6.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.6.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ff453976176a403e13d8ed149ba417dd/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/49522112196676d31b74a1b00ada2631/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/49522112196676d31b74a1b00ada2631/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/219bdb852800b24bc2605f717c51237d/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/219bdb852800b24bc2605f717c51237d/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:22:5-31:19
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:22:5-31:19
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
@@ -76,14 +98,15 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gra
 	android:name
 		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
-INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
-MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
 MERGED from [:shared_preferences_android] /Users/rawaha/Developer/ositech/DietControlApp/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:path_provider_android] /Users/rawaha/Developer/ositech/DietControlApp/build/path_provider_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
@@ -102,6 +125,10 @@ MERGED from [androidx.window:window:1.0.0-beta04] /Users/rawaha/.gradle/caches/t
 MERGED from [com.google.firebase:firebase-analytics:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23cdd0519f7e6aae73953bdd5a9011ad/jetified-firebase-analytics-20.0.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.ads.mediation:applovin:10.3.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/486eb4659be05270c0d80efd9f6e3c1a/jetified-applovin-10.3.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.ads.mediation:facebook:6.0.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/050fec5e6bcdbb8da8c59111e7336d9c/jetified-facebook-6.0.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-ads:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/010b38d2a2857e75b5f854d27421c64e/jetified-play-services-ads-20.4.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/97cedce1916f6ec85e7c31887a368a9b/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/26ef4bb110b83fd88e96e0e6f6c09f01/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
@@ -120,6 +147,11 @@ MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rawah
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/1fc94f86e633cd0e8fc2677a631d1f44/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/7c57dbc72486eb532e35e67136d609e8/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:17:1-67:12
+MERGED from [com.google.android.gms:play-services-ads-base:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3b66f0872a842d581953c2e3e4964433/jetified-play-services-ads-base-20.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:2:1-73:12
+MERGED from [com.google.android.ump:user-messaging-platform:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/97bd1f617621c642e20593dfc246b0e1/jetified-user-messaging-platform-1.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-base:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/1e75d3e35ae684f7f65a8421ffa7594e/jetified-play-services-measurement-base-20.0.2/AndroidManifest.xml:2:1-9:12
@@ -130,6 +162,7 @@ MERGED from [androidx.fragment:fragment:1.3.0] /Users/rawaha/.gradle/caches/tran
 MERGED from [androidx.loader:loader:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/709dbedbd2ba6f7420611ab93ab9bea9/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.3.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/a44afc67c471e67087ba7f16f48e75fd/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.activity:activity:1.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f73a84c51bef9ec092e65ed10b0831da/jetified-activity-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/550fecd55c953f4db78fc04fe373a9f1/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/a73aea27ccd920808649a85e21c163d7/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/2b3da076d3185bc52bfbde349c0efc94/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -144,6 +177,7 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rawaha/.gradle
 MERGED from [androidx.core:core:1.6.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/ff453976176a403e13d8ed149ba417dd/core-1.6.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/968e7a7691f9eb6bde158a6d730c1b7f/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/780632dbc91973523d66f656ac8a55dd/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/49522112196676d31b74a1b00ada2631/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/614c25f6925dc73872028d13ffb29ca0/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/219bdb852800b24bc2605f717c51237d/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/9a11494f3152c24c7ebdbd39d2e7c7f2/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -154,39 +188,51 @@ MERGED from [androidx.print:print:1.0.0] /Users/rawaha/.gradle/caches/transforms
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e0a9cc408cbe8aa0c62990bbace258f5/jetified-lifecycle-viewmodel-savedstate-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e2d5193f1db0b1d46c3a85a54681675b/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d15df6b3840e5ec1450f437ac149b567/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/b0a2fe382c89e5b733946d173a543109/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/33e764637b8405bf2eb7195e5182bcc4/lifecycle-runtime-2.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/1ffd5c80158597c09876d8d7b79baf31/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/255746620eef7d4dea084c017b3560c6/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/8ff3f666f40ed28f6b251492f54e143e/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0d88d663335e8baf0874aff75e6b9417/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/6d443de55609e49af126378228ac557b/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09e5245541131866a201f424e8823da5/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/249c8d1e8d704fd72c66aa8958ebe5b7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:2:5-43
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:70-108
 		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
 		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-54:12
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:1-35:12
 		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:1:11-69
 queries
-ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:3:5-5:15
+ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:2:2-4:12
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:28:5-44:15
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:28:5-44:15
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:15:5-20:15
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:15:5-20:15
 provider
-ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:4:9-89
+ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:3:3-82
 	android:authorities
-		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:4:19-86
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:3:13-80
 uses-permission#android.permission.INTERNET
-ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:6:5-66
-MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:6:5-66
-MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:6:5-66
+ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:5:2-63
+MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:5:2-63
+MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:5:2-63
+MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [:google_sign_in] /Users/rawaha/Developer/ositech/DietControlApp/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [:google_sign_in] /Users/rawaha/Developer/ositech/DietControlApp/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
@@ -199,10 +245,18 @@ MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/raw
 MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f068ecef29a8d2ecde8cf8a1faad8b3f/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f068ecef29a8d2ecde8cf8a1faad8b3f/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:23:5-67
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:11:5-67
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:11:5-67
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml:5:19-61
 uses-sdk
 INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
@@ -213,6 +267,8 @@ MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/buil
 MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -249,6 +305,14 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/cac
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ads.mediation:applovin:10.3.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/486eb4659be05270c0d80efd9f6e3c1a/jetified-applovin-10.3.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.ads.mediation:applovin:10.3.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/486eb4659be05270c0d80efd9f6e3c1a/jetified-applovin-10.3.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.ads.mediation:facebook:6.0.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/050fec5e6bcdbb8da8c59111e7336d9c/jetified-facebook-6.0.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ads.mediation:facebook:6.0.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/050fec5e6bcdbb8da8c59111e7336d9c/jetified-facebook-6.0.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/010b38d2a2857e75b5f854d27421c64e/jetified-play-services-ads-20.4.0/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/010b38d2a2857e75b5f854d27421c64e/jetified-play-services-ads-20.4.0/AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/97cedce1916f6ec85e7c31887a368a9b/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
@@ -285,6 +349,16 @@ MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/r
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/1fc94f86e633cd0e8fc2677a631d1f44/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/7c57dbc72486eb532e35e67136d609e8/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/7c57dbc72486eb532e35e67136d609e8/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3b66f0872a842d581953c2e3e4964433/jetified-play-services-ads-base-20.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/3b66f0872a842d581953c2e3e4964433/jetified-play-services-ads-base-20.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.ump:user-messaging-platform:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/97bd1f617621c642e20593dfc246b0e1/jetified-user-messaging-platform-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/97bd1f617621c642e20593dfc246b0e1/jetified-user-messaging-platform-1.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:20:5-44
@@ -305,6 +379,8 @@ MERGED from [androidx.core:core-ktx:1.3.2] /Users/rawaha/.gradle/caches/transfor
 MERGED from [androidx.core:core-ktx:1.3.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/a44afc67c471e67087ba7f16f48e75fd/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.activity:activity:1.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f73a84c51bef9ec092e65ed10b0831da/jetified-activity-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f73a84c51bef9ec092e65ed10b0831da/jetified-activity-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/550fecd55c953f4db78fc04fe373a9f1/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/550fecd55c953f4db78fc04fe373a9f1/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/a73aea27ccd920808649a85e21c163d7/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -333,6 +409,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/968e7a7691f9eb6bde158a6d730c1b7f/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/780632dbc91973523d66f656ac8a55dd/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/780632dbc91973523d66f656ac8a55dd/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/49522112196676d31b74a1b00ada2631/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/49522112196676d31b74a1b00ada2631/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/614c25f6925dc73872028d13ffb29ca0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/614c25f6925dc73872028d13ffb29ca0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/219bdb852800b24bc2605f717c51237d/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
@@ -353,20 +431,34 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/rawaha/.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e2d5193f1db0b1d46c3a85a54681675b/lifecycle-viewmodel-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d15df6b3840e5ec1450f437ac149b567/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d15df6b3840e5ec1450f437ac149b567/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/b0a2fe382c89e5b733946d173a543109/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/b0a2fe382c89e5b733946d173a543109/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/33e764637b8405bf2eb7195e5182bcc4/lifecycle-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/33e764637b8405bf2eb7195e5182bcc4/lifecycle-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/1ffd5c80158597c09876d8d7b79baf31/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/1ffd5c80158597c09876d8d7b79baf31/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/255746620eef7d4dea084c017b3560c6/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/255746620eef7d4dea084c017b3560c6/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/8ff3f666f40ed28f6b251492f54e143e/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/8ff3f666f40ed28f6b251492f54e143e/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0d88d663335e8baf0874aff75e6b9417/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0d88d663335e8baf0874aff75e6b9417/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/6d443de55609e49af126378228ac557b/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/6d443de55609e49af126378228ac557b/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09e5245541131866a201f424e8823da5/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09e5245541131866a201f424e8823da5/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:6:5-9:1108
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:6:5-9:1108
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/249c8d1e8d704fd72c66aa8958ebe5b7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/249c8d1e8d704fd72c66aa8958ebe5b7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/010b38d2a2857e75b5f854d27421c64e/jetified-play-services-ads-20.4.0/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
 		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/debug/AndroidManifest.xml
@@ -405,6 +497,12 @@ ADDED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build
 		ADDED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-12:36
+	android:value
+		ADDED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-33
+	android:name
+		ADDED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-61
 provider#dev.fluttercommunity.plus.share.ShareFileProvider
 ADDED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
@@ -519,8 +617,18 @@ MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/raw
 MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f068ecef29a8d2ecde8cf8a1faad8b3f/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f068ecef29a8d2ecde8cf8a1faad8b3f/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:12:5-79
+MERGED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:24:5-79
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:12:5-79
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:12:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:12:5-79
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:12:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/20c92a9eacc34f0af3135437a9ce4824/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
@@ -591,6 +699,18 @@ ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gra
 		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e4136d0023b4b0a6d08a303295476d17/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+activity#com.adcolony.sdk.AdColonyInterstitialActivity
+ADDED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:10:9-14:50
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:23:9-26:50
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:23:9-26:50
+	android:hardwareAccelerated
+		ADDED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:14:13-47
+	android:exported
+		ADDED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:13:13-37
+	android:configChanges
+		ADDED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:12:13-74
+	android:name
+		ADDED from [com.google.ads.mediation:adcolony:4.6.5.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d2e675e55d8a6ea961d7146976a2a7ba/jetified-adcolony-4.6.5.0/AndroidManifest.xml:11:13-73
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f03b570fa857d9ca86eb4d40ae1c78fb/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:25:5-68
@@ -599,6 +719,8 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /User
 MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/f068ecef29a8d2ecde8cf8a1faad8b3f/jetified-play-services-measurement-impl-20.0.2/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0089c9e73d10e2d6250bd7bbbc743fa2/jetified-play-services-measurement-sdk-api-20.0.2/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/e3e51d82b2815d88db9c1c8c576d1159/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:24:22-65
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
@@ -667,13 +789,445 @@ ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gra
 		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/60488f250a8de81e43d17d85b4f9defb/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:15:9-19:75
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:18:13-37
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:17:13-74
+	android:theme
+		ADDED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:19:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+		ADDED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:16:13-68
+provider#com.facebook.ads.AudienceNetworkContentProvider
+ADDED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:21:9-24:40
+	android:authorities
+		ADDED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:23:13-82
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:6.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/47a893f74f1215104c412cd6089ae3a9/jetified-audience-network-sdk-6.0.0/AndroidManifest.xml:22:13-75
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:25:5-79
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:13:5-79
+MERGED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/fad5a7717f392220b29b075a2222a083/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:13:5-79
+MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:25:22-76
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:31:9-37:18
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:40:9-42:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:41:13-90
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:41:21-87
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:49:9-53:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:52:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:51:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:53:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:50:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:55:9-59:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:57:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:58:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:56:13-76
+service#com.google.android.gms.ads.AdService
+ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:61:9-64:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:63:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:20.4.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/23de24fa9d0abf1c7d74eafed45d89e9/jetified-play-services-ads-lite-20.4.0/AndroidManifest.xml:62:13-64
+provider#com.applovin.sdk.AppLovinInitProvider
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:16:9-21:39
+	android:grantUriPermissions
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:20:13-47
+	android:authorities
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:18:13-75
+	android:exported
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:19:13-37
+	android:initOrder
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:17:13-65
+activity#com.applovin.adview.AppLovinInterstitialActivity
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:23:9-27:50
+	android:screenOrientation
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:27:13-47
+	android:hardwareAccelerated
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:26:13-47
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:25:13-98
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:24:13-76
+activity#com.applovin.adview.AppLovinFullscreenActivity
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:28:9-34:50
+	android:screenOrientation
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:34:13-47
+	android:launchMode
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:33:13-43
+	android:hardwareAccelerated
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:32:13-47
+	android:exported
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:31:13-37
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:30:13-129
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:29:13-74
+activity#com.applovin.sdk.AppLovinWebViewActivity
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:35:9-37:84
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:37:13-81
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:36:13-68
+activity#com.applovin.mediation.MaxDebuggerActivity
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:38:9-41:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:40:13-74
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:41:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:39:13-70
+activity#com.applovin.mediation.MaxDebuggerDetailActivity
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:42:9-45:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:44:13-74
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:45:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:43:13-76
+activity#com.applovin.mediation.MaxDebuggerMultiAdActivity
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:46:9-49:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:48:13-74
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:49:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:47:13-77
+activity#com.applovin.mediation.MaxDebuggerAdUnitsListActivity
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:50:9-53:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:52:13-74
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:53:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:51:13-81
+activity#com.applovin.mediation.MaxDebuggerAdUnitDetailActivity
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:54:9-57:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:56:13-74
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:57:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:55:13-82
+activity#com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:58:9-61:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:60:13-74
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:61:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:59:13-85
+service#com.applovin.impl.sdk.utils.AppKilledService
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:63:9-66:44
+	android:exported
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:65:13-37
+	android:stopWithTask
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:66:13-41
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:64:13-72
+service#com.applovin.impl.adview.activity.FullscreenAdService
+ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:67:9-70:44
+	android:exported
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:69:13-37
+	android:stopWithTask
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:70:13-41
+	android:name
+		ADDED from [com.applovin:applovin-sdk:10.3.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5aefaede6e0d4b482f60e0c9eb0a2c30/jetified-applovin-sdk-10.3.5/AndroidManifest.xml:68:13-81
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/4f1f09bd4ba5fbc6b6748842e6afc4b9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/4f1f09bd4ba5fbc6b6748842e6afc4b9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/4f1f09bd4ba5fbc6b6748842e6afc4b9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/49522112196676d31b74a1b00ada2631/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/49522112196676d31b74a1b00ada2631/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/666770d9f674d967ed0122583c8925b8/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+package#com.android.vending
+ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:16:9-55
+	android:name
+		ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:16:18-52
+package#com.amazon.venezia
+ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:17:9-54
+	android:name
+		ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:17:18-51
+package#com.sec.android.app.samsungapps
+ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:18:9-67
+	android:name
+		ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:18:18-64
+package#com.huawei.appmarket
+ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:19:18-53
+activity#com.adcolony.sdk.AdColonyAdViewActivity
+ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:27:9-30:50
+	android:hardwareAccelerated
+		ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:30:13-47
+	android:configChanges
+		ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:29:13-74
+	android:name
+		ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:28:13-67
