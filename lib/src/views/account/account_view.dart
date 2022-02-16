@@ -15,6 +15,7 @@ class AccountView extends StatelessWidget {
   Widget build(BuildContext context) {
     return ViewModelBuilder<AccountViewModel>.reactive(
       viewModelBuilder: () => AccountViewModel(),
+      onModelReady: (m) => m.getData(),
       builder: (context, model, _) => Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
