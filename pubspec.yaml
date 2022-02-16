@@ -59,6 +59,7 @@ dependencies:
     git:
       url: https://github.com/ztalha6/flutter_ads_mediation.git
       ref: master
+  in_app_purchase: ^2.0.1
 
 
 dev_dependencies:

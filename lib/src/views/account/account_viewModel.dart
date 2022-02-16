@@ -55,8 +55,12 @@ class AccountViewModel extends BaseViewModel {
   Future<String> writeToFile() async {
     final directory = await getTemporaryDirectory();
     final File file = await _getFileFromPath(directory.path);
-    for (var i = 0; i < dates.length; i++) {
-      await file.writeAsString("${dates[i]}\n${json.encode(data[i])}");
+    file.delete();
+    for (var i = 0; i < data.length; i++) {
+      file.writeAsStringSync(
+        "\n${dates[i]}\n${json.encode(data[i])}\n",
+        mode: FileMode.append,
+      );
     }
 
     return file.path;

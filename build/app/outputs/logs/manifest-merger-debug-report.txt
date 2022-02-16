@@ -87,6 +87,8 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/c
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/5d5e630665c5cfc235e14bbff85084cc/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:12:5-22:19
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:12:5-22:19
 MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:22:5-31:19
 MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:22:5-31:19
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
@@ -106,6 +108,7 @@ MERGED from /Users/rawaha/Developer/ositech/DietControlApp/android/app/src/main/
 MERGED from [:shared_preferences_android] /Users/rawaha/Developer/ositech/DietControlApp/build/shared_preferences_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:in_app_purchase_android] /Users/rawaha/Developer/ositech/DietControlApp/build/in_app_purchase_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:url_launcher_android] /Users/rawaha/Developer/ositech/DietControlApp/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
@@ -197,6 +200,7 @@ MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/rawaha/.gradle/caches/transfor
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/0d88d663335e8baf0874aff75e6b9417/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/6d443de55609e49af126378228ac557b/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09e5245541131866a201f424e8823da5/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:2:1-24:12
 MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/249c8d1e8d704fd72c66aa8958ebe5b7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/bcf922270fa2531a8454a34c61278804/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
@@ -267,6 +271,8 @@ MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/buil
 MERGED from [:firebase_auth] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /Users/rawaha/Developer/ositech/DietControlApp/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:in_app_purchase_android] /Users/rawaha/Developer/ositech/DietControlApp/build/in_app_purchase_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:in_app_purchase_android] /Users/rawaha/Developer/ositech/DietControlApp/build/in_app_purchase_android/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_mobile_ads] /Users/rawaha/Developer/ositech/DietControlApp/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:share_plus] /Users/rawaha/Developer/ositech/DietControlApp/build/share_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -449,6 +455,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/rawaha/.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/6d443de55609e49af126378228ac557b/lifecycle-livedata-core-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09e5245541131866a201f424e8823da5/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09e5245541131866a201f424e8823da5/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:6:5-8:41
 MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:6:5-9:1108
 MERGED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:6:5-9:1108
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/249c8d1e8d704fd72c66aa8958ebe5b7/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -1207,6 +1215,26 @@ ADDED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/trans
 		ADDED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.2.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/d6bcebd953aef968db65851f10f92144/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+uses-permission#com.android.vending.BILLING
+ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:10:22-64
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:17:9-21:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:20:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:3.0.2] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/09ff0b66ece466ddeb154c5d137c9a19/jetified-billing-3.0.2/AndroidManifest.xml:18:13-78
 package#com.android.vending
 ADDED from [com.adcolony:sdk:4.6.5] /Users/rawaha/.gradle/caches/transforms-2/files-2.1/85cf33f9505741012f230a665130ec9e/jetified-sdk-4.6.5/AndroidManifest.xml:16:9-55
 	android:name

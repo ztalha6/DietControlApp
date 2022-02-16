@@ -1,8 +1,31 @@
-import 'package:flutter/material.dart';
+import 'dart:async';
 
-class SubscribeView extends StatelessWidget {
-  SubscribeView({Key? key}) : super(key: key);
+import 'package:flutter/material.dart';
+import 'package:in_app_purchase/in_app_purchase.dart';
+
+class SubscribeView extends StatefulWidget {
+  const SubscribeView({Key? key}) : super(key: key);
+
+  @override
+  State<SubscribeView> createState() => _SubscribeViewState();
+}
+
+class _SubscribeViewState extends State<SubscribeView> {
   TextStyle testStyle = const TextStyle(fontWeight: FontWeight.w600);
+  // StreamSubscription<List<PurchaseDetails>> _subscription;
+  @override
+  void initState() {
+    // final Stream purchaseUpdated = InAppPurchase.instance.purchaseStream;
+    // _subscription = purchaseUpdated.listen((purchaseDetailsList) {
+    //   _listenToPurchaseUpdated(purchaseDetailsList);
+    // }, onDone: () {
+    //   _subscription.cancel();
+    // }, onError: (error) {
+    //   // handle error here.
+    // });
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -111,7 +134,7 @@ class SubscribeView extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(16.0),
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () => getSub(),
                         style: ButtonStyle(
                           shape:
                               MaterialStateProperty.all<RoundedRectangleBorder>(
@@ -157,3 +180,33 @@ class SubscribeView extends StatelessWidget {
     );
   }
 }
+
+getSub() async {
+  final bool available = await InAppPurchase.instance.isAvailable();
+  if (!available) {
+    // The store cannot be reached or accessed. Update the UI accordingly.
+  }
+}
+
+// void _listenToPurchaseUpdated(List<PurchaseDetails> purchaseDetailsList) {
+//   purchaseDetailsList.forEach((PurchaseDetails purchaseDetails) async {
+//     if (purchaseDetails.status == PurchaseStatus.pending) {
+//       _showPendingUI();
+//     } else {
+//       if (purchaseDetails.status == PurchaseStatus.error) {
+//         _handleError(purchaseDetails.error!);
+//       } else if (purchaseDetails.status == PurchaseStatus.purchased ||
+//           purchaseDetails.status == PurchaseStatus.restored) {
+//         bool valid = await _verifyPurchase(purchaseDetails);
+//         if (valid) {
+//           _deliverProduct(purchaseDetails);
+//         } else {
+//           _handleInvalidPurchase(purchaseDetails);
+//         }
+//       }
+//       if (purchaseDetails.pendingCompletePurchase) {
+//         await InAppPurchase.instance.completePurchase(purchaseDetails);
+//       }
+//     }
+//   });
+// }
