@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:max="http://schemas.applovin.com/android/1.0"
+    tools:context="com.applovin.mediation.MaxDebuggerMultiAdActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/applovin_sdk_listViewBackground"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/banner_ad_view_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/mrec_ad_view_container"
+            android:layout_width="@dimen/applovin_sdk_mrec_width"
+            android:layout_height="@dimen/applovin_sdk_mrec_height"
+            android:background="@android:color/white"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ad_controls_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/banner_control_view"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@+id/banner_control_button"
+                android:layout_width="@dimen/applovin_sdk_adControlButton_width"
+                android:layout_height="@dimen/applovin_sdk_adControlButton_height"/>
+
+            <TextView
+                android:id="@+id/banner_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/banner_control_button"
+                android:layout_toEndOf="@id/banner_control_button"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_centerInParent="true"
+                android:text="Banner" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/mrec_control_view"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@+id/mrec_control_button"
+                android:layout_width="@dimen/applovin_sdk_adControlButton_width"
+                android:layout_height="@dimen/applovin_sdk_adControlButton_height"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/mrec_control_button"
+                android:layout_toEndOf="@id/mrec_control_button"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_centerInParent="true"
+                android:text="MREC" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/interstitial_control_view"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@+id/interstitial_control_button"
+                android:layout_width="@dimen/applovin_sdk_adControlButton_width"
+                android:layout_height="@dimen/applovin_sdk_adControlButton_height"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/interstitial_control_button"
+                android:layout_toEndOf="@id/interstitial_control_button"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_centerInParent="true"
+                android:text="Interstitial" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rewarded_interstitial_control_view"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@+id/rewarded_interstitial_control_button"
+                android:layout_width="@dimen/applovin_sdk_adControlButton_width"
+                android:layout_height="@dimen/applovin_sdk_adControlButton_height"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/rewarded_interstitial_control_button"
+                android:layout_toEndOf="@id/rewarded_interstitial_control_button"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_centerInParent="true"
+                android:text="Rewarded Interstitial" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rewarded_control_view"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp">
+
+            <com.applovin.impl.mediation.debugger.ui.testmode.AdControlButton
+                android:id="@+id/rewarded_control_button"
+                android:layout_width="@dimen/applovin_sdk_adControlButton_width"
+                android:layout_height="@dimen/applovin_sdk_adControlButton_height"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/rewarded_control_button"
+                android:layout_toEndOf="@id/rewarded_control_button"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_centerInParent="true"
+                android:text="Rewarded" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

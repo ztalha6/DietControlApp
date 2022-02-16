@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">897822477083-cod4puh8c0gbq18i9msk26inff4fs5us.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">897822477083</string>
+    <string name="google_api_key" translatable="false">AIzaSyBQKQZFtg-Yez9TW_RRaMJ29hbkh9KZ6Zw</string>
+    <string name="google_app_id" translatable="false">1:897822477083:android:c60da558230ac8d85c61be</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQKQZFtg-Yez9TW_RRaMJ29hbkh9KZ6Zw</string>
+    <string name="google_storage_bucket" translatable="false">calories-counter-diary.appspot.com</string>
+    <string name="project_id" translatable="false">calories-counter-diary</string>
+</resources>
