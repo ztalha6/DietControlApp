@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'src/app.dart';
 
 Future<void> main() async {
-WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   // Initialize the SDK before making an ad request.
   // You can check each adapter's initialization status in the callback.
   MobileAds.instance.initialize().then((initializationStatus) {
@@ -14,7 +14,7 @@ WidgetsFlutterBinding.ensureInitialized();
       debugPrint('Adapter status for $key: ${value.description}');
     });
   });
-  
+
   await Firebase.initializeApp();
   setupLocator();
   runApp(
